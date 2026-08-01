@@ -20,14 +20,13 @@
   .card { width:100%; max-width:680px; border-radius:28px; padding:34px 26px;
           background:linear-gradient(160deg,#e4f2ff,#cfe8ff);
           box-shadow:0 8px 30px rgba(60,130,200,.18); position:relative; }
+  .en-box { background:#fff; border-radius:20px; padding:26px 24px;
+            box-shadow:0 2px 10px rgba(60,130,200,.10), inset 0 0 0 1px #dbe8f5; }
   .en { font-size:30px; font-weight:700; line-height:1.35; text-align:center; }
-  .en .w { color:#8fb4d6; transition:color .12s; }        /* 아직 안 읽은 단어 */
-  .en .w.spoken { color:#1e4e79; }                         /* 이미 읽은 단어 */
+  .en .w { color:#93a3b5; transition:color .12s; }         /* 아직 안 읽은 단어 (흰 배경에서 잘 보이게) */
+  .en .w.spoken { color:#12406e; }                         /* 이미 읽은 단어 */
   .en .w.cur { color:#0a63b8; }                            /* 현재 단어 */
   .ko { margin-top:16px; font-size:19px; text-align:center; color:#3a5a78; }
-  .mic { position:absolute; top:18px; right:20px; width:40px; height:40px;
-         border-radius:50%; background:#ffffffcc; display:flex; align-items:center;
-         justify-content:center; border:1px solid #cfe3f5; cursor:pointer; }
   #status { color:#4a6a88; font-size:14px; }
   .nav { display:flex; gap:14px; align-items:center; justify-content:center; }
   .nav button { min-width:104px; }
@@ -47,9 +46,8 @@
 
 <div id="stage">
   <div class="card">
-    <div class="en" id="en">주제를 고르고 시작을 누르세요</div>
+    <div class="en-box"><div class="en" id="en">주제를 고르고 시작을 누르세요</div></div>
     <div class="ko" id="ko"></div>
-    <button class="mic" id="mic" title="현재 문장 다시 듣기">🎙️</button>
   </div>
   <div class="nav">
     <button id="prev">◀ 이전</button>
@@ -187,11 +185,6 @@ $("stop").onclick = stopPlay;
 $("prev").onclick = () => go(-1);
 $("next").onclick = () => go(1);
 $("topic").onchange = selectTopic;
-$("mic").onclick = () => {                        // 정지 상태에서 현재 영어 문장 다시 듣기
-  if (running || !sentences[idx]) return;
-  cancel(); render();
-  playAudio(sentences[idx].enAudio, sentences[idx].words);
-};
 
 load();
 </script>
