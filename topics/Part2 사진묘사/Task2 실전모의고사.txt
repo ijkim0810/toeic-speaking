@@ -1,0 +1,2 @@
+# TOEIC Speaking Part 2 - 실전모의고사 (형식: 영어 | 한글)
+# 아직 준비 중 - 문장을 여기에 한 줄씩 추가한 뒤 python generate.py 실행

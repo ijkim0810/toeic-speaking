@@ -73,8 +73,17 @@ const gapMs = () => Math.max(0, +$("gap").value || 0) * 1000;
 
 async function load() {
   manifest = await (await fetch("manifest.json")).json();
-  $("topic").innerHTML = manifest.topics
-    .map((t) => `<option value="${t.id}">${t.title}</option>`).join("");
+  // 그룹(Part)별로 <optgroup>, 항목(Task)은 <option>. 그룹 없으면 그냥 option.
+  const groups = {}, order = [];
+  manifest.topics.forEach((t) => {
+    const g = t.group || "";
+    if (!(g in groups)) { groups[g] = []; order.push(g); }
+    groups[g].push(t);
+  });
+  $("topic").innerHTML = order.map((g) => {
+    const opts = groups[g].map((t) => `<option value="${t.id}">${t.title}</option>`).join("");
+    return g ? `<optgroup label="${g}">${opts}</optgroup>` : opts;
+  }).join("");
   selectTopic();
 }
 

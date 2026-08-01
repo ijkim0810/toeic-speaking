@@ -98,15 +98,19 @@ def _ensure_audio(text, voice, api_key, web_dir, want_words, tts):
 
 def build_manifest(topics_dir, web_dir, api_key, en_voice, ko_voice, tts=tts_with_timestamps):
     topics = []
-    for path in sorted(glob.glob(os.path.join(topics_dir, "*.txt"))):
-        topic_id = os.path.splitext(os.path.basename(path))[0]
+    # 하위 폴더까지 순회. 폴더 = 그룹(예: Part2), 파일명 = 항목 제목(예: Task1 만능문장)
+    for path in sorted(glob.glob(os.path.join(topics_dir, "**", "*.txt"), recursive=True)):
+        rel = os.path.relpath(path, topics_dir).replace("\\", "/")
+        topic_id = os.path.splitext(rel)[0]                    # "Part2 사진묘사/Task1 만능문장"
+        title = os.path.splitext(os.path.basename(path))[0]    # "Task1 만능문장"
+        group = os.path.dirname(rel)                            # "Part2 사진묘사" (없으면 "")
         sentences = []
         for en, ko in parse_topic_file(path):
             en_rel, words = _ensure_audio(en, en_voice, api_key, web_dir, True, tts)
             ko_rel, _ = _ensure_audio(ko, ko_voice, api_key, web_dir, False, tts)
             sentences.append({"en": en, "ko": ko, "enAudio": en_rel,
                               "koAudio": ko_rel, "words": words})
-        topics.append({"id": topic_id, "title": topic_id, "sentences": sentences})
+        topics.append({"id": topic_id, "title": title, "group": group, "sentences": sentences})
     manifest = {"topics": topics}
     with open(os.path.join(web_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)

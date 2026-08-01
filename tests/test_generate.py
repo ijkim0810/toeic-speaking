@@ -118,3 +118,33 @@ def test_build_manifest_no_duplicate_api_calls_within_run(tmp_path):
     build_manifest(str(topics), str(web), "k", "envoice", "kovoice", tts=fake_tts)
     en_calls = [c for c in calls if c == ("envoice", "He runs.")]
     assert len(en_calls) == 1
+
+
+def _fake_tts(text, voice_id, api_key, model="eleven_multilingual_v2"):
+    n = len(text)
+    return {"audio": b"X", "alignment": {
+        "characters": list(text),
+        "character_start_times_seconds": [i * 0.1 for i in range(n)],
+        "character_end_times_seconds": [(i + 1) * 0.1 for i in range(n)],
+    }}
+
+
+def test_build_manifest_groups_by_subfolder(tmp_path):
+    topics = tmp_path / "topics"; (topics / "Part2").mkdir(parents=True)
+    (topics / "Part2" / "Task1.txt").write_text("He runs. | 그는 달려요.\n", encoding="utf-8")
+    web = tmp_path / "web"; web.mkdir()
+    m = build_manifest(str(topics), str(web), "k", "en", "ko", tts=_fake_tts)
+    top = m["topics"][0]
+    assert top["group"] == "Part2"
+    assert top["title"] == "Task1"
+    assert top["id"] == "Part2/Task1"
+
+
+def test_build_manifest_includes_empty_topic(tmp_path):
+    # 문장이 없는 항목(실전모의고사 자리)도 메뉴에 뜨도록 포함돼야 함
+    topics = tmp_path / "topics"; (topics / "Part2").mkdir(parents=True)
+    (topics / "Part2" / "Task2.txt").write_text("# 준비 중\n", encoding="utf-8")
+    web = tmp_path / "web"; web.mkdir()
+    m = build_manifest(str(topics), str(web), "k", "en", "ko", tts=_fake_tts)
+    assert m["topics"][0]["id"] == "Part2/Task2"
+    assert m["topics"][0]["sentences"] == []
