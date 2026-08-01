@@ -2,5 +2,4 @@ __pycache__/
 *.pyc
 .env
 .superpowers/
-web/manifest.json
-web/audio/
+web/audio/*.words.json

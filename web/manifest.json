@@ -1,0 +1,1820 @@
+{
+  "topics": [
+    {
+      "id": "Part2 사진묘사/Task1 만능문장",
+      "title": "Task1 만능문장",
+      "group": "Part2 사진묘사",
+      "sentences": [
+        {
+          "en": "This is a picture taken at a park",
+          "ko": "이것은 공원에서 찍힌 사진이에요",
+          "enAudio": "audio/4d4579fb24d663c09194575f14aecff8778d05a0.mp3",
+          "koAudio": "audio/7fb9040d8b386c364bb62abecb2faa5e097dcc7c.mp3",
+          "words": [
+            {
+              "text": "This",
+              "start": 0.0,
+              "end": 0.209
+            },
+            {
+              "text": "is",
+              "start": 0.267,
+              "end": 0.348
+            },
+            {
+              "text": "a",
+              "start": 0.395,
+              "end": 0.43
+            },
+            {
+              "text": "picture",
+              "start": 0.488,
+              "end": 0.778
+            },
+            {
+              "text": "taken",
+              "start": 0.813,
+              "end": 1.033
+            },
+            {
+              "text": "at",
+              "start": 1.068,
+              "end": 1.126
+            },
+            {
+              "text": "a",
+              "start": 1.173,
+              "end": 1.196
+            },
+            {
+              "text": "park",
+              "start": 1.242,
+              "end": 1.765
+            }
+          ]
+        },
+        {
+          "en": "The first thing I can see in this picture is two women.",
+          "ko": "이 사진에서 가장 먼저 볼 수 있는 것은 두명의 여자예요.",
+          "enAudio": "audio/a2944a6167d1e274896675a8c4271206eca82047.mp3",
+          "koAudio": "audio/a7ddbfa1892126e526dfd2cfdd9d7e63cb2ad574.mp3",
+          "words": [
+            {
+              "text": "The",
+              "start": 0.0,
+              "end": 0.174
+            },
+            {
+              "text": "first",
+              "start": 0.255,
+              "end": 0.499
+            },
+            {
+              "text": "thing",
+              "start": 0.522,
+              "end": 0.673
+            },
+            {
+              "text": "I",
+              "start": 0.731,
+              "end": 0.755
+            },
+            {
+              "text": "can",
+              "start": 0.824,
+              "end": 0.94
+            },
+            {
+              "text": "see",
+              "start": 0.987,
+              "end": 1.103
+            },
+            {
+              "text": "in",
+              "start": 1.138,
+              "end": 1.184
+            },
+            {
+              "text": "this",
+              "start": 1.219,
+              "end": 1.335
+            },
+            {
+              "text": "picture",
+              "start": 1.393,
+              "end": 1.753
+            },
+            {
+              "text": "is",
+              "start": 1.823,
+              "end": 1.927
+            },
+            {
+              "text": "two",
+              "start": 1.985,
+              "end": 2.148
+            },
+            {
+              "text": "women.",
+              "start": 2.206,
+              "end": 2.833
+            }
+          ]
+        },
+        {
+          "en": "In the foreground/middle/background of the picture, I can see a fountain.",
+          "ko": "사진의 전경/중앙/배경에는 분수대가 보여요.",
+          "enAudio": "audio/0cfa369fc54bbf60c9106adbee48164f10213e9c.mp3",
+          "koAudio": "audio/6ea2604947b426db8c77139447236127429a0198.mp3",
+          "words": [
+            {
+              "text": "In",
+              "start": 0.0,
+              "end": 0.139
+            },
+            {
+              "text": "the",
+              "start": 0.174,
+              "end": 0.244
+            },
+            {
+              "text": "foreground/middle/background",
+              "start": 0.302,
+              "end": 2.09
+            },
+            {
+              "text": "of",
+              "start": 2.125,
+              "end": 2.171
+            },
+            {
+              "text": "the",
+              "start": 2.206,
+              "end": 2.276
+            },
+            {
+              "text": "picture,",
+              "start": 2.31,
+              "end": 2.821
+            },
+            {
+              "text": "I",
+              "start": 2.972,
+              "end": 3.019
+            },
+            {
+              "text": "can",
+              "start": 3.1,
+              "end": 3.228
+            },
+            {
+              "text": "see",
+              "start": 3.274,
+              "end": 3.413
+            },
+            {
+              "text": "a",
+              "start": 3.448,
+              "end": 3.471
+            },
+            {
+              "text": "fountain.",
+              "start": 3.529,
+              "end": 4.226
+            }
+          ]
+        },
+        {
+          "en": "On the left/right side of the picture, there is a sidewalk.",
+          "ko": "사진의 왼쪽/오른쪽에는 인도가 있어요.",
+          "enAudio": "audio/be8d33e7e517ca4b3c4acae0cf53adf7d1a5a426.mp3",
+          "koAudio": "audio/9a14fc7bad3e2fc9bfb3d4b7cbb3c7fdaf46d57c.mp3",
+          "words": [
+            {
+              "text": "On",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "the",
+              "start": 0.186,
+              "end": 0.255
+            },
+            {
+              "text": "left/right",
+              "start": 0.313,
+              "end": 0.731
+            },
+            {
+              "text": "side",
+              "start": 0.766,
+              "end": 0.94
+            },
+            {
+              "text": "of",
+              "start": 0.964,
+              "end": 1.01
+            },
+            {
+              "text": "the",
+              "start": 1.045,
+              "end": 1.115
+            },
+            {
+              "text": "picture,",
+              "start": 1.161,
+              "end": 1.649
+            },
+            {
+              "text": "there",
+              "start": 1.776,
+              "end": 1.95
+            },
+            {
+              "text": "is",
+              "start": 1.985,
+              "end": 2.055
+            },
+            {
+              "text": "a",
+              "start": 2.101,
+              "end": 2.136
+            },
+            {
+              "text": "sidewalk.",
+              "start": 2.194,
+              "end": 3.065
+            }
+          ]
+        },
+        {
+          "en": "Next to her, there is another woman.",
+          "ko": "그녀의 옆에 또 다른 여자가 있어요.",
+          "enAudio": "audio/7721b66dfb6ec1b9c45e6e94345917ff476876c9.mp3",
+          "koAudio": "audio/162d61014474e4c79e5c5ce8d9f8e30884bcad6b.mp3",
+          "words": [
+            {
+              "text": "Next",
+              "start": 0.0,
+              "end": 0.313
+            },
+            {
+              "text": "to",
+              "start": 0.348,
+              "end": 0.418
+            },
+            {
+              "text": "her,",
+              "start": 0.511,
+              "end": 0.848
+            },
+            {
+              "text": "there",
+              "start": 0.998,
+              "end": 1.184
+            },
+            {
+              "text": "is",
+              "start": 1.231,
+              "end": 1.324
+            },
+            {
+              "text": "another",
+              "start": 1.37,
+              "end": 1.66
+            },
+            {
+              "text": "woman.",
+              "start": 1.718,
+              "end": 2.322
+            }
+          ]
+        },
+        {
+          "en": "Behind her, I can see two men standing.",
+          "ko": "그녀의 뒤에 서 있는 두명의 남성이 보여요.",
+          "enAudio": "audio/151efcb46f87156f6614c2208cfe532c757dc0c9.mp3",
+          "koAudio": "audio/ed19272245051ca59afc7374265164d43ad9f6d3.mp3",
+          "words": [
+            {
+              "text": "Behind",
+              "start": 0.0,
+              "end": 0.395
+            },
+            {
+              "text": "her,",
+              "start": 0.441,
+              "end": 0.534
+            },
+            {
+              "text": "I",
+              "start": 0.557,
+              "end": 0.58
+            },
+            {
+              "text": "can",
+              "start": 0.639,
+              "end": 0.743
+            },
+            {
+              "text": "see",
+              "start": 0.789,
+              "end": 0.94
+            },
+            {
+              "text": "two",
+              "start": 0.975,
+              "end": 1.126
+            },
+            {
+              "text": "men",
+              "start": 1.207,
+              "end": 1.37
+            },
+            {
+              "text": "standing.",
+              "start": 1.44,
+              "end": 2.229
+            }
+          ]
+        },
+        {
+          "en": "Most of them are wearing formal clothes.",
+          "ko": "그들 중 대부분은 정장을 입고 있어요.",
+          "enAudio": "audio/c942ccb032b361b99cfc82be9b27461eabc1251a.mp3",
+          "koAudio": "audio/f702c9eb43f378417f268e3a60dcbedc95765fb5.mp3",
+          "words": [
+            {
+              "text": "Most",
+              "start": 0.0,
+              "end": 0.302
+            },
+            {
+              "text": "of",
+              "start": 0.348,
+              "end": 0.406
+            },
+            {
+              "text": "them",
+              "start": 0.453,
+              "end": 0.569
+            },
+            {
+              "text": "are",
+              "start": 0.615,
+              "end": 0.708
+            },
+            {
+              "text": "wearing",
+              "start": 0.731,
+              "end": 0.975
+            },
+            {
+              "text": "formal",
+              "start": 1.033,
+              "end": 1.312
+            },
+            {
+              "text": "clothes.",
+              "start": 1.358,
+              "end": 2.136
+            }
+          ]
+        },
+        {
+          "en": "Some of them are wearing casual clothes.",
+          "ko": "그들 중 일부는 캐주얼한 옷을 입고 있어요.",
+          "enAudio": "audio/a2bc1c33c6a098ca45b3d30c79faa51da8b761d3.mp3",
+          "koAudio": "audio/8693eb3851b7fbeab7e1d94cf82357b082f810cd.mp3",
+          "words": [
+            {
+              "text": "Some",
+              "start": 0.0,
+              "end": 0.267
+            },
+            {
+              "text": "of",
+              "start": 0.302,
+              "end": 0.372
+            },
+            {
+              "text": "them",
+              "start": 0.418,
+              "end": 0.557
+            },
+            {
+              "text": "are",
+              "start": 0.604,
+              "end": 0.708
+            },
+            {
+              "text": "wearing",
+              "start": 0.731,
+              "end": 0.987
+            },
+            {
+              "text": "casual",
+              "start": 1.033,
+              "end": 1.474
+            },
+            {
+              "text": "clothes.",
+              "start": 1.533,
+              "end": 2.229
+            }
+          ]
+        },
+        {
+          "en": "She is looking at a menu.",
+          "ko": "그녀는 메뉴판을 보고 있어요",
+          "enAudio": "audio/611d6d69f70168a62f934517958e356b8968ad9b.mp3",
+          "koAudio": "audio/6f978608921c2cc56ca6ce9df9e753c7ba6e0ed5.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "is",
+              "start": 0.255,
+              "end": 0.348
+            },
+            {
+              "text": "looking",
+              "start": 0.406,
+              "end": 0.662
+            },
+            {
+              "text": "at",
+              "start": 0.708,
+              "end": 0.766
+            },
+            {
+              "text": "a",
+              "start": 0.801,
+              "end": 0.824
+            },
+            {
+              "text": "menu.",
+              "start": 0.882,
+              "end": 1.533
+            }
+          ]
+        },
+        {
+          "en": "He is writing something down.",
+          "ko": "그는 무언가를 적고 있어요.",
+          "enAudio": "audio/5f18f64258aba061880a57aec7ad523671dbb8de.mp3",
+          "koAudio": "audio/9de60894be5f90d7912807527cf63590386ad355.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.302
+            },
+            {
+              "text": "writing",
+              "start": 0.36,
+              "end": 0.65
+            },
+            {
+              "text": "something",
+              "start": 0.697,
+              "end": 0.975
+            },
+            {
+              "text": "down.",
+              "start": 1.022,
+              "end": 1.579
+            }
+          ]
+        },
+        {
+          "en": "He is Drinking some water.",
+          "ko": "그는 물을 마시고 있어요",
+          "enAudio": "audio/73c5aaaeccb229cb403cf5272eff3c1b3fd3deb4.mp3",
+          "koAudio": "audio/47fec3b17de2f68f75b06be5e73aff5d5a0a9a42.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.139
+            },
+            {
+              "text": "is",
+              "start": 0.197,
+              "end": 0.279
+            },
+            {
+              "text": "Drinking",
+              "start": 0.337,
+              "end": 0.662
+            },
+            {
+              "text": "some",
+              "start": 0.708,
+              "end": 0.859
+            },
+            {
+              "text": "water.",
+              "start": 0.894,
+              "end": 1.533
+            }
+          ]
+        },
+        {
+          "en": "She is serving food to customers.",
+          "ko": "그녀는 고객들에게 음식을 제공하고 있어요.",
+          "enAudio": "audio/da51d13f3276b61b6a484153619bcec57b96c0ee.mp3",
+          "koAudio": "audio/db0f7669a4ed8450a15e8056df97d79c989c8527.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "is",
+              "start": 0.232,
+              "end": 0.313
+            },
+            {
+              "text": "serving",
+              "start": 0.36,
+              "end": 0.673
+            },
+            {
+              "text": "food",
+              "start": 0.743,
+              "end": 0.952
+            },
+            {
+              "text": "to",
+              "start": 0.975,
+              "end": 1.022
+            },
+            {
+              "text": "customers.",
+              "start": 1.08,
+              "end": 1.95
+            }
+          ]
+        },
+        {
+          "en": "She is holding a cup.",
+          "ko": "그녀는 컵을 들고 있어요.",
+          "enAudio": "audio/32d9f2e761e2b2be343c47a138a8fb98ee0c6868.mp3",
+          "koAudio": "audio/38254e3796aaf2e8f2800a2c3e0a1eab4941c65b.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "is",
+              "start": 0.255,
+              "end": 0.36
+            },
+            {
+              "text": "holding",
+              "start": 0.418,
+              "end": 0.72
+            },
+            {
+              "text": "a",
+              "start": 0.766,
+              "end": 0.801
+            },
+            {
+              "text": "cup.",
+              "start": 0.859,
+              "end": 1.44
+            }
+          ]
+        },
+        {
+          "en": "They are standing at the cashier.",
+          "ko": "그들은 계산대에 서 있어요.",
+          "enAudio": "audio/0b60b5bd5dbf44622c240b41315a4d323802e769.mp3",
+          "koAudio": "audio/611aa8fee0ca5f290920a31ee313e13cf6186196.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "are",
+              "start": 0.244,
+              "end": 0.36
+            },
+            {
+              "text": "standing",
+              "start": 0.418,
+              "end": 0.824
+            },
+            {
+              "text": "at",
+              "start": 0.859,
+              "end": 0.917
+            },
+            {
+              "text": "the",
+              "start": 0.952,
+              "end": 1.022
+            },
+            {
+              "text": "cashier.",
+              "start": 1.057,
+              "end": 1.997
+            }
+          ]
+        },
+        {
+          "en": "They are having a conversation.",
+          "ko": "그들은 대화를 나누고 있어요",
+          "enAudio": "audio/b4012e7d5284aa26c1afbfcd752433b3e31d19ba.mp3",
+          "koAudio": "audio/6a0a33669c0727f1354c3c59f1be4f2823b82e3d.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "are",
+              "start": 0.232,
+              "end": 0.348
+            },
+            {
+              "text": "having",
+              "start": 0.395,
+              "end": 0.673
+            },
+            {
+              "text": "a",
+              "start": 0.731,
+              "end": 0.755
+            },
+            {
+              "text": "conversation.",
+              "start": 0.813,
+              "end": 1.765
+            }
+          ]
+        },
+        {
+          "en": "She is looking into a bag",
+          "ko": "그녀는 가방 안을 들여다보고 있어요.",
+          "enAudio": "audio/fc178348a0e5b84a5e388815b73fe0971f7d6c21.mp3",
+          "koAudio": "audio/7b1043313333254a722e5221928fee894de42722.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "is",
+              "start": 0.255,
+              "end": 0.36
+            },
+            {
+              "text": "looking",
+              "start": 0.441,
+              "end": 0.755
+            },
+            {
+              "text": "into",
+              "start": 0.813,
+              "end": 0.998
+            },
+            {
+              "text": "a",
+              "start": 1.08,
+              "end": 1.115
+            },
+            {
+              "text": "bag",
+              "start": 1.173,
+              "end": 1.811
+            }
+          ]
+        },
+        {
+          "en": "He is helping customers.",
+          "ko": "그는 고객들을 돕고 있어요.",
+          "enAudio": "audio/ff7a8456966e67fbae78b199d1e66988f34f1238.mp3",
+          "koAudio": "audio/6d56300140ad55e07b08e9d8e403365c875231da.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.197,
+              "end": 0.29
+            },
+            {
+              "text": "helping",
+              "start": 0.337,
+              "end": 0.58
+            },
+            {
+              "text": "customers.",
+              "start": 0.627,
+              "end": 1.44
+            }
+          ]
+        },
+        {
+          "en": "They are sitting at a table.",
+          "ko": "그들은 테이블에 앉아 있어요.",
+          "enAudio": "audio/2256472bb9181d05d88b4ac2d7ac7767c66c0859.mp3",
+          "koAudio": "audio/fbc1ad4db1625fdf1b40baee01ed7f3b7fc4e06a.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "are",
+              "start": 0.232,
+              "end": 0.348
+            },
+            {
+              "text": "sitting",
+              "start": 0.418,
+              "end": 0.801
+            },
+            {
+              "text": "at",
+              "start": 0.894,
+              "end": 1.033
+            },
+            {
+              "text": "a",
+              "start": 1.068,
+              "end": 1.103
+            },
+            {
+              "text": "table.",
+              "start": 1.161,
+              "end": 1.904
+            }
+          ]
+        },
+        {
+          "en": "He is looking for something.",
+          "ko": "그는 무언가를 찾고 있어요.",
+          "enAudio": "audio/8671d830c421896b833fe220605869d33b15a7e7.mp3",
+          "koAudio": "audio/a15d822e91ff9036e4e8881c452766b6cf0e874e.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.163
+            },
+            {
+              "text": "is",
+              "start": 0.221,
+              "end": 0.313
+            },
+            {
+              "text": "looking",
+              "start": 0.395,
+              "end": 0.673
+            },
+            {
+              "text": "for",
+              "start": 0.731,
+              "end": 0.824
+            },
+            {
+              "text": "something.",
+              "start": 0.871,
+              "end": 1.533
+            }
+          ]
+        },
+        {
+          "en": "He is handing over a credit card.",
+          "ko": "그는 신용카드를 건네주고 있어요.",
+          "enAudio": "audio/b75fa17640e8dd5bbda8ef1750c888e6f0c2324e.mp3",
+          "koAudio": "audio/ce0182cb4fb086e9e1fcc69e416060ee905ba049.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.302
+            },
+            {
+              "text": "handing",
+              "start": 0.372,
+              "end": 0.708
+            },
+            {
+              "text": "over",
+              "start": 0.778,
+              "end": 0.952
+            },
+            {
+              "text": "a",
+              "start": 1.01,
+              "end": 1.033
+            },
+            {
+              "text": "credit",
+              "start": 1.091,
+              "end": 1.358
+            },
+            {
+              "text": "card.",
+              "start": 1.382,
+              "end": 1.997
+            }
+          ]
+        },
+        {
+          "en": "He is pushing a cart.",
+          "ko": "그는 카트를 밀고 있어요.",
+          "enAudio": "audio/87cf6f101b3161efe4401a5498018c8fc0ce3ce5.mp3",
+          "koAudio": "audio/96f88638d0298634bf600d32ecb133a301c5dfea.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.139
+            },
+            {
+              "text": "is",
+              "start": 0.186,
+              "end": 0.267
+            },
+            {
+              "text": "pushing",
+              "start": 0.325,
+              "end": 0.615
+            },
+            {
+              "text": "a",
+              "start": 0.662,
+              "end": 0.697
+            },
+            {
+              "text": "cart.",
+              "start": 0.755,
+              "end": 1.393
+            }
+          ]
+        },
+        {
+          "en": "He is looking at a product.",
+          "ko": "그는 제품을 보고 있어요.",
+          "enAudio": "audio/fa384adcbf935c9aca2f21d4c7571a62be51c84a.mp3",
+          "koAudio": "audio/94cedaefb9a1050f6bf07ee1d18f27d8bb6d8e15.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.139
+            },
+            {
+              "text": "is",
+              "start": 0.197,
+              "end": 0.279
+            },
+            {
+              "text": "looking",
+              "start": 0.337,
+              "end": 0.639
+            },
+            {
+              "text": "at",
+              "start": 0.708,
+              "end": 0.789
+            },
+            {
+              "text": "a",
+              "start": 0.824,
+              "end": 0.859
+            },
+            {
+              "text": "product.",
+              "start": 0.906,
+              "end": 1.625
+            }
+          ]
+        },
+        {
+          "en": "They are waiting in line.",
+          "ko": "그들은 줄을 서서 기다리고 있어요.",
+          "enAudio": "audio/43480d4ffcc61d6445209d9f8e1d674473439465.mp3",
+          "koAudio": "audio/f8a7d0ceb972b242d3f702dd796fc57d69a207fb.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "are",
+              "start": 0.232,
+              "end": 0.337
+            },
+            {
+              "text": "waiting",
+              "start": 0.383,
+              "end": 0.65
+            },
+            {
+              "text": "in",
+              "start": 0.697,
+              "end": 0.755
+            },
+            {
+              "text": "line.",
+              "start": 0.824,
+              "end": 1.486
+            }
+          ]
+        },
+        {
+          "en": "They are arranging items.",
+          "ko": "그들은 물건들을 정리하고 있어요.",
+          "enAudio": "audio/705b82a6a42fdd04aba13d3e00c9a2a47ccd09a7.mp3",
+          "koAudio": "audio/27db110cd2aa7f017364b4b3fa3cb4c2d838a859.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "are",
+              "start": 0.221,
+              "end": 0.325
+            },
+            {
+              "text": "arranging",
+              "start": 0.372,
+              "end": 0.801
+            },
+            {
+              "text": "items.",
+              "start": 0.871,
+              "end": 1.579
+            }
+          ]
+        },
+        {
+          "en": "She is holding a shopping bag.",
+          "ko": "그녀는 쇼핑백을 들고 있어요.",
+          "enAudio": "audio/dd2352442363388ac2a09c55bac31a580d9ddbc5.mp3",
+          "koAudio": "audio/882532a46421c6cda5b8f086517a19f2f35e9bbd.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "is",
+              "start": 0.232,
+              "end": 0.325
+            },
+            {
+              "text": "holding",
+              "start": 0.383,
+              "end": 0.639
+            },
+            {
+              "text": "a",
+              "start": 0.685,
+              "end": 0.708
+            },
+            {
+              "text": "shopping",
+              "start": 0.766,
+              "end": 1.126
+            },
+            {
+              "text": "bag.",
+              "start": 1.173,
+              "end": 1.765
+            }
+          ]
+        },
+        {
+          "en": "He is reaching for an item.",
+          "ko": "그는 물건을 집으려고 손을 뻗고 있어요.",
+          "enAudio": "audio/3757aafbdec98d17f10130be788f22c99719cff7.mp3",
+          "koAudio": "audio/9ed8f69961752394e04b31985d0d731837db2069.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.163
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.313
+            },
+            {
+              "text": "reaching",
+              "start": 0.43,
+              "end": 0.789
+            },
+            {
+              "text": "for",
+              "start": 0.859,
+              "end": 1.022
+            },
+            {
+              "text": "an",
+              "start": 1.068,
+              "end": 1.149
+            },
+            {
+              "text": "item.",
+              "start": 1.207,
+              "end": 1.858
+            }
+          ]
+        },
+        {
+          "en": "He is holding a plastic bag.",
+          "ko": "그는 비닐봉지를 들고 있어요.",
+          "enAudio": "audio/77a95b738168acedd8dadb03f209faae78130f92.mp3",
+          "koAudio": "audio/f3c5e26b0fdb30cb43e2e39fa21d79875738aef6.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.128
+            },
+            {
+              "text": "is",
+              "start": 0.174,
+              "end": 0.255
+            },
+            {
+              "text": "holding",
+              "start": 0.302,
+              "end": 0.522
+            },
+            {
+              "text": "a",
+              "start": 0.557,
+              "end": 0.58
+            },
+            {
+              "text": "plastic",
+              "start": 0.615,
+              "end": 0.987
+            },
+            {
+              "text": "bag.",
+              "start": 1.033,
+              "end": 1.672
+            }
+          ]
+        },
+        {
+          "en": "He is raising his hand.",
+          "ko": "그는 한 손을 들고 있어요.",
+          "enAudio": "audio/5a71b117a03a7996d129086676df5d7455cee203.mp3",
+          "koAudio": "audio/ec057ae8c035e61270dcdb53c0156c6e0324e396.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.139
+            },
+            {
+              "text": "is",
+              "start": 0.197,
+              "end": 0.279
+            },
+            {
+              "text": "raising",
+              "start": 0.348,
+              "end": 0.639
+            },
+            {
+              "text": "his",
+              "start": 0.673,
+              "end": 0.766
+            },
+            {
+              "text": "hand.",
+              "start": 0.813,
+              "end": 1.393
+            }
+          ]
+        },
+        {
+          "en": "She is holding a document.",
+          "ko": "그녀는 문서를 들고 있어요.",
+          "enAudio": "audio/af9201b01b2e786b4d73ee983e91b86463a2dfe6.mp3",
+          "koAudio": "audio/594c6a68c6ac13e9b2aea460b66cd84521ddf213.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.174
+            },
+            {
+              "text": "is",
+              "start": 0.232,
+              "end": 0.313
+            },
+            {
+              "text": "holding",
+              "start": 0.372,
+              "end": 0.627
+            },
+            {
+              "text": "a",
+              "start": 0.673,
+              "end": 0.697
+            },
+            {
+              "text": "document.",
+              "start": 0.755,
+              "end": 1.533
+            }
+          ]
+        },
+        {
+          "en": "He is making a presentation.",
+          "ko": "그는 발표를 하고 있어요.",
+          "enAudio": "audio/f9c4e2ef1559645efa89f94022742ba8a974dbbb.mp3",
+          "koAudio": "audio/fc8df2542a47a332938e4b4ddc4f2c6200020c9d.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.197,
+              "end": 0.29
+            },
+            {
+              "text": "making",
+              "start": 0.36,
+              "end": 0.604
+            },
+            {
+              "text": "a",
+              "start": 0.639,
+              "end": 0.662
+            },
+            {
+              "text": "presentation.",
+              "start": 0.697,
+              "end": 1.672
+            }
+          ]
+        },
+        {
+          "en": "He is using a tablet PC.",
+          "ko": "그는 태블릿을 사용하고 있어요.",
+          "enAudio": "audio/58fdff6e0e80f75424fbbed2fa2e20a61f627c94.mp3",
+          "koAudio": "audio/9874e6a9c7cc88be0ef84aaf7d36c1e76586ed8c.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.163
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.29
+            },
+            {
+              "text": "using",
+              "start": 0.348,
+              "end": 0.557
+            },
+            {
+              "text": "a",
+              "start": 0.592,
+              "end": 0.615
+            },
+            {
+              "text": "tablet",
+              "start": 0.662,
+              "end": 0.952
+            },
+            {
+              "text": "PC.",
+              "start": 0.987,
+              "end": 1.718
+            }
+          ]
+        },
+        {
+          "en": "They are reading a document.",
+          "ko": "그들은 문서를 읽고 있어요.",
+          "enAudio": "audio/bbda6b681f4a38b94b1372df3cb2402e7a56f4af.mp3",
+          "koAudio": "audio/966ad68d8b566471e4e3985199908cc8be2f3a78.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "are",
+              "start": 0.221,
+              "end": 0.313
+            },
+            {
+              "text": "reading",
+              "start": 0.36,
+              "end": 0.592
+            },
+            {
+              "text": "a",
+              "start": 0.639,
+              "end": 0.662
+            },
+            {
+              "text": "document.",
+              "start": 0.72,
+              "end": 1.486
+            }
+          ]
+        },
+        {
+          "en": "He is hanging his clothes on a rack.",
+          "ko": "그는 옷걸이에 옷을 걸고 있어요.",
+          "enAudio": "audio/212b4cd0a908e718f5d672b9120580177d54d0fe.mp3",
+          "koAudio": "audio/7917a85a8477d6901b0de9dc429ecc3108f7409d.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.313
+            },
+            {
+              "text": "hanging",
+              "start": 0.395,
+              "end": 0.731
+            },
+            {
+              "text": "his",
+              "start": 0.789,
+              "end": 0.894
+            },
+            {
+              "text": "clothes",
+              "start": 0.94,
+              "end": 1.254
+            },
+            {
+              "text": "on",
+              "start": 1.289,
+              "end": 1.358
+            },
+            {
+              "text": "a",
+              "start": 1.405,
+              "end": 1.428
+            },
+            {
+              "text": "rack.",
+              "start": 1.498,
+              "end": 2.136
+            }
+          ]
+        },
+        {
+          "en": "She is picking up a piece of paper.",
+          "ko": "그녀는 종이 한 장을 줍고 있어요.",
+          "enAudio": "audio/7330564c3ff3b32a7f6c7b6897eea45abcdbb910.mp3",
+          "koAudio": "audio/4f52ccdfc03041b43757de75c3907a308ed27876.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "is",
+              "start": 0.244,
+              "end": 0.337
+            },
+            {
+              "text": "picking",
+              "start": 0.406,
+              "end": 0.731
+            },
+            {
+              "text": "up",
+              "start": 0.778,
+              "end": 0.871
+            },
+            {
+              "text": "a",
+              "start": 0.929,
+              "end": 0.964
+            },
+            {
+              "text": "piece",
+              "start": 1.01,
+              "end": 1.231
+            },
+            {
+              "text": "of",
+              "start": 1.265,
+              "end": 1.312
+            },
+            {
+              "text": "paper.",
+              "start": 1.358,
+              "end": 2.043
+            }
+          ]
+        },
+        {
+          "en": "There is a man taking a picture.",
+          "ko": "사진을 찍고 있는 한 남자가 있어요.",
+          "enAudio": "audio/eb9df4923e72b03d65a43f13d8b5d9cd19574afc.mp3",
+          "koAudio": "audio/c079edd3f748107e6e6f92310f8aade8efe0b8b2.mp3",
+          "words": [
+            {
+              "text": "There",
+              "start": 0.0,
+              "end": 0.232
+            },
+            {
+              "text": "is",
+              "start": 0.267,
+              "end": 0.36
+            },
+            {
+              "text": "a",
+              "start": 0.406,
+              "end": 0.441
+            },
+            {
+              "text": "man",
+              "start": 0.511,
+              "end": 0.755
+            },
+            {
+              "text": "taking",
+              "start": 0.824,
+              "end": 1.138
+            },
+            {
+              "text": "a",
+              "start": 1.184,
+              "end": 1.219
+            },
+            {
+              "text": "picture.",
+              "start": 1.277,
+              "end": 1.997
+            }
+          ]
+        },
+        {
+          "en": "She is walking a dog.",
+          "ko": "그녀는 개를 산책시키고 있어요.",
+          "enAudio": "audio/9c11617079fd102599c837e26f7053ca0513ecb9.mp3",
+          "koAudio": "audio/58fb458220e82331c9e0605cdb661cf0e62b7d34.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.174
+            },
+            {
+              "text": "is",
+              "start": 0.232,
+              "end": 0.313
+            },
+            {
+              "text": "walking",
+              "start": 0.383,
+              "end": 0.697
+            },
+            {
+              "text": "a",
+              "start": 0.755,
+              "end": 0.778
+            },
+            {
+              "text": "dog.",
+              "start": 0.824,
+              "end": 1.533
+            }
+          ]
+        },
+        {
+          "en": "He is lying on the ground.",
+          "ko": "그는 바닥에 누워 있어요.",
+          "enAudio": "audio/eaf6d9fb4a91891aff699ac362f8b2fc6d47639d.mp3",
+          "koAudio": "audio/96b5ee3322abd472c348954e792d275b9802a8a6.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.313
+            },
+            {
+              "text": "lying",
+              "start": 0.406,
+              "end": 0.755
+            },
+            {
+              "text": "on",
+              "start": 0.801,
+              "end": 0.859
+            },
+            {
+              "text": "the",
+              "start": 0.894,
+              "end": 0.964
+            },
+            {
+              "text": "ground.",
+              "start": 1.01,
+              "end": 1.672
+            }
+          ]
+        },
+        {
+          "en": "She is pushing a baby stroller.",
+          "ko": "그녀는 유모차를 밀고 있어요.",
+          "enAudio": "audio/5f7605ad19bb08a3faa45789e227cfdc25f74eee.mp3",
+          "koAudio": "audio/c7b2d97446cd6379cf100f01b2ec8c12fb1cd8a4.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.209
+            },
+            {
+              "text": "is",
+              "start": 0.267,
+              "end": 0.383
+            },
+            {
+              "text": "pushing",
+              "start": 0.476,
+              "end": 0.871
+            },
+            {
+              "text": "a",
+              "start": 0.929,
+              "end": 0.964
+            },
+            {
+              "text": "baby",
+              "start": 1.033,
+              "end": 1.289
+            },
+            {
+              "text": "stroller.",
+              "start": 1.335,
+              "end": 2.043
+            }
+          ]
+        },
+        {
+          "en": "He is riding a boat.",
+          "ko": "그는 보트를 타고 있어요.",
+          "enAudio": "audio/6fe13b773656429672f91d43ef4346a317eddd80.mp3",
+          "koAudio": "audio/cf1962bb526f349c4348c8370b81b417cdf00d0d.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.163
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.302
+            },
+            {
+              "text": "riding",
+              "start": 0.383,
+              "end": 0.685
+            },
+            {
+              "text": "a",
+              "start": 0.731,
+              "end": 0.755
+            },
+            {
+              "text": "boat.",
+              "start": 0.813,
+              "end": 1.393
+            }
+          ]
+        },
+        {
+          "en": "He is loading a box into a truck.",
+          "ko": "그는 트럭에 상자를 싣고 있어요",
+          "enAudio": "audio/d1ddd56c9c0a8d093edd14df78eb4cce11f49c2c.mp3",
+          "koAudio": "audio/57ceb0007321f5eab33d4dfb0706a40364f7a716.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.197,
+              "end": 0.29
+            },
+            {
+              "text": "loading",
+              "start": 0.372,
+              "end": 0.65
+            },
+            {
+              "text": "a",
+              "start": 0.697,
+              "end": 0.72
+            },
+            {
+              "text": "box",
+              "start": 0.778,
+              "end": 1.022
+            },
+            {
+              "text": "into",
+              "start": 1.08,
+              "end": 1.254
+            },
+            {
+              "text": "a",
+              "start": 1.335,
+              "end": 1.358
+            },
+            {
+              "text": "truck.",
+              "start": 1.405,
+              "end": 2.09
+            }
+          ]
+        },
+        {
+          "en": "He is relaxing on a beach chair.",
+          "ko": "그는 해변 의자에서 쉬고 있어요.",
+          "enAudio": "audio/da02f6c9af6b402ce2fda12bff87dc38c421ade5.mp3",
+          "koAudio": "audio/e2ab8c33724fde4bcadc169a85d89ba4610f665d.mp3",
+          "words": [
+            {
+              "text": "He",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "is",
+              "start": 0.209,
+              "end": 0.302
+            },
+            {
+              "text": "relaxing",
+              "start": 0.372,
+              "end": 0.906
+            },
+            {
+              "text": "on",
+              "start": 0.964,
+              "end": 1.022
+            },
+            {
+              "text": "a",
+              "start": 1.057,
+              "end": 1.08
+            },
+            {
+              "text": "beach",
+              "start": 1.138,
+              "end": 1.358
+            },
+            {
+              "text": "chair.",
+              "start": 1.416,
+              "end": 2.043
+            }
+          ]
+        },
+        {
+          "en": "They are walking down the stairs.",
+          "ko": "그들은 계단을 내려가고 있어요.",
+          "enAudio": "audio/c8a731438cba5f0e0472ad5bf346bfa3113f09ef.mp3",
+          "koAudio": "audio/23d2b32663298cf9053bed7d88dcd4485783fc4a.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "are",
+              "start": 0.221,
+              "end": 0.325
+            },
+            {
+              "text": "walking",
+              "start": 0.372,
+              "end": 0.673
+            },
+            {
+              "text": "down",
+              "start": 0.708,
+              "end": 0.848
+            },
+            {
+              "text": "the",
+              "start": 0.871,
+              "end": 0.94
+            },
+            {
+              "text": "stairs.",
+              "start": 0.964,
+              "end": 1.672
+            }
+          ]
+        },
+        {
+          "en": "They are crossing the street.",
+          "ko": "그들은 길을 건너고 있어요.",
+          "enAudio": "audio/054e2bf6c90c25b568dccebf7c8f1c16c5085e82.mp3",
+          "koAudio": "audio/0fe6effe92b436c5a0f0cab1809381b0c5dfa886.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "are",
+              "start": 0.221,
+              "end": 0.325
+            },
+            {
+              "text": "crossing",
+              "start": 0.383,
+              "end": 0.813
+            },
+            {
+              "text": "the",
+              "start": 0.859,
+              "end": 0.929
+            },
+            {
+              "text": "street.",
+              "start": 0.975,
+              "end": 1.672
+            }
+          ]
+        },
+        {
+          "en": "They are walking on the street.",
+          "ko": "그들은 길을 걸어가고 있어요.",
+          "enAudio": "audio/d37a95601b4207aace7e15f5c6c91e9bb4d84dc9.mp3",
+          "koAudio": "audio/98e76164b3a42ab31ac65d1db8bcab7b622f3ca3.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.372
+            },
+            {
+              "text": "are",
+              "start": 0.406,
+              "end": 0.546
+            },
+            {
+              "text": "walking",
+              "start": 0.604,
+              "end": 0.964
+            },
+            {
+              "text": "on",
+              "start": 1.01,
+              "end": 1.08
+            },
+            {
+              "text": "the",
+              "start": 1.115,
+              "end": 1.184
+            },
+            {
+              "text": "street.",
+              "start": 1.219,
+              "end": 1.904
+            }
+          ]
+        },
+        {
+          "en": "She is looking at a smartphone.",
+          "ko": "그녀는 스마트폰을 보고 있어요.",
+          "enAudio": "audio/c794861c310881731dacd73a9dc6fea43204e5cd.mp3",
+          "koAudio": "audio/d27d8e8635fbefcbad6155403448eddfaf1c5efa.mp3",
+          "words": [
+            {
+              "text": "She",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "is",
+              "start": 0.255,
+              "end": 0.348
+            },
+            {
+              "text": "looking",
+              "start": 0.406,
+              "end": 0.673
+            },
+            {
+              "text": "at",
+              "start": 0.72,
+              "end": 0.789
+            },
+            {
+              "text": "a",
+              "start": 0.824,
+              "end": 0.859
+            },
+            {
+              "text": "smartphone.",
+              "start": 0.906,
+              "end": 1.765
+            }
+          ]
+        },
+        {
+          "en": "They are performing.",
+          "ko": "그들은 공연하고 있어요.",
+          "enAudio": "audio/502b24916f6b4fd5ce483e5375e6660dc92f67fd.mp3",
+          "koAudio": "audio/487f9781a557c8bb464c11be22c2d71f62ebbd48.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "are",
+              "start": 0.244,
+              "end": 0.36
+            },
+            {
+              "text": "performing.",
+              "start": 0.418,
+              "end": 1.393
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Part2 사진묘사/Task2 실전모의고사",
+      "title": "Task2 실전모의고사",
+      "group": "Part2 사진묘사",
+      "sentences": []
+    }
+  ]
+}
