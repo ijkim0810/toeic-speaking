@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>TOEIC Speaking 섀도잉</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<meta name="theme-color" content="#bfe3ff" />
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         background: linear-gradient(160deg,#eaf6ff,#dff0ff); color:#1b2a3a;
+         min-height:100dvh; }
+  header { padding: 14px 16px; display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  select, input, button { font-size:16px; padding:8px 10px; border-radius:12px;
+         border:1px solid #b9d6ee; background:#fff; }
+  button.primary { background:#2f8fd6; color:#fff; border:none; }
+  #stage { display:flex; flex-direction:column; align-items:center; justify-content:center;
+           gap:18px; padding:24px 16px; }
+  .card { width:100%; max-width:680px; border-radius:28px; padding:34px 26px;
+          background:linear-gradient(160deg,#e4f2ff,#cfe8ff);
+          box-shadow:0 8px 30px rgba(60,130,200,.18); position:relative; }
+  .en { font-size:30px; font-weight:700; line-height:1.35; text-align:center; }
+  .en .w { color:#8fb4d6; transition:color .12s; }        /* 아직 안 읽은 단어 */
+  .en .w.spoken { color:#1e4e79; }                         /* 이미 읽은 단어 */
+  .en .w.cur { color:#0a63b8; }                            /* 현재 단어 */
+  .ko { margin-top:16px; font-size:19px; text-align:center; color:#3a5a78; }
+  .mic { position:absolute; top:18px; right:20px; width:40px; height:40px;
+         border-radius:50%; background:#ffffffcc; display:flex; align-items:center;
+         justify-content:center; border:1px solid #cfe3f5; cursor:pointer; }
+  #status { color:#4a6a88; font-size:14px; }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<header>
+  <label>주제 <select id="topic"></select></label>
+  <label>반복 <input id="repeats" type="number" min="1" max="10" value="5" style="width:60px"></label>
+  <label>간격(초) <input id="gap" type="number" min="0" max="10" step="0.5" value="2" style="width:60px"></label>
+  <button id="start" class="primary">▶ 시작</button>
+  <button id="stop" class="hidden">■ 정지</button>
+  <span id="status"></span>
+</header>
+
+<div id="stage">
+  <div class="card">
+    <div class="en" id="en">주제를 고르고 시작을 누르세요</div>
+    <div class="ko" id="ko"></div>
+    <button class="mic" id="mic" title="현재 문장 다시 듣기">🎙️</button>
+  </div>
+</div>
+
+<audio id="audio"></audio>
+
+<script type="module">
+import { activeWordIndex, buildSchedule } from "./player-core.js";
+
+const $ = (id) => document.getElementById(id);
+let manifest = null, running = false, curSentence = null;
+const audio = $("audio");
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function load() {
+  manifest = await (await fetch("manifest.json")).json();
+  $("topic").innerHTML = manifest.topics
+    .map((t) => `<option value="${t.id}">${t.title}</option>`).join("");
+}
+
+function renderWords(words) {
+  $("en").innerHTML = words
+    .map((w, i) => `<span class="w" data-i="${i}">${w.text}</span>`).join(" ");
+}
+
+function highlight(words, t) {
+  const idx = activeWordIndex(words, t);
+  const spans = $("en").querySelectorAll(".w");
+  spans.forEach((el, i) => {
+    el.classList.toggle("cur", i === idx);
+    el.classList.toggle("spoken", idx >= 0 ? i < idx : false);
+  });
+}
+
+function playOnce(item, words) {
+  return new Promise((resolve) => {
+    audio.src = item.audio;
+    const onUpdate = () => { if (words) highlight(words, audio.currentTime); };
+    const onEnd = () => {
+      audio.removeEventListener("timeupdate", onUpdate);
+      audio.removeEventListener("ended", onEnd);
+      if (words) highlight(words, 1e9); // 끝: 전부 spoken 처리
+      resolve();
+    };
+    audio.addEventListener("timeupdate", onUpdate);
+    audio.addEventListener("ended", onEnd);
+    audio.play();
+  });
+}
+
+async function runTopic(topic) {
+  const repeats = Math.max(1, +$("repeats").value || 5);
+  const gapMs = (+$("gap").value || 0) * 1000;
+  for (const s of topic.sentences) {
+    if (!running) return;
+    curSentence = s;
+    const schedule = buildSchedule(s, repeats);
+    for (let k = 0; k < schedule.length; k++) {
+      if (!running) return;
+      const item = schedule[k];
+      $("ko").textContent = s.ko;
+      if (item.lang === "en") { renderWords(s.words); }
+      else { $("en").textContent = "🇰🇷 " + s.ko; }
+      $("status").textContent =
+        item.lang === "ko" ? "한글 뜻" : `영어 ${k}/${repeats}`;
+      await playOnce(item, item.lang === "en" ? s.words : null);
+      if (!running) return;
+      if (gapMs) await sleep(gapMs);
+    }
+  }
+  $("status").textContent = "완료 ✅";
+  running = false; toggleButtons();
+}
+
+function toggleButtons() {
+  $("start").classList.toggle("hidden", running);
+  $("stop").classList.toggle("hidden", !running);
+}
+
+$("start").onclick = () => {
+  const topic = manifest.topics.find((t) => t.id === $("topic").value);
+  if (!topic) return;
+  running = true; toggleButtons();
+  runTopic(topic);
+};
+$("stop").onclick = () => { running = false; audio.pause(); toggleButtons(); $("status").textContent = "정지됨"; };
+$("mic").onclick = () => {
+  if (curSentence) { renderWords(curSentence.words); playOnce({audio: curSentence.enAudio}, curSentence.words); }
+};
+
+load();
+</script>
+</body>
+</html>
