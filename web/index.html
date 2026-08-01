@@ -77,7 +77,8 @@ function highlight(words, t) {
   const spans = $("en").querySelectorAll(".w");
   spans.forEach((el, i) => {
     el.classList.toggle("cur", i === idx);
-    el.classList.toggle("spoken", idx >= 0 ? i < idx : false);
+    // "이미 말한" 단어는 재생 시각 기준으로 판정 → 단어 사이 공백 구간에도 유지됨
+    el.classList.toggle("spoken", words[i].end <= t);
   });
 }
 
@@ -134,7 +135,10 @@ $("start").onclick = () => {
 };
 $("stop").onclick = () => { running = false; audio.pause(); toggleButtons(); $("status").textContent = "정지됨"; };
 $("mic").onclick = () => {
-  if (curSentence) { renderWords(curSentence.words); playOnce({audio: curSentence.enAudio}, curSentence.words); }
+  // 자동재생 중에는 공유 <audio> 충돌로 루프가 멈추므로 무시 (정지 후에만 수동 다시듣기)
+  if (running || !curSentence) return;
+  renderWords(curSentence.words);
+  playOnce({audio: curSentence.enAudio}, curSentence.words);
 };
 
 load();

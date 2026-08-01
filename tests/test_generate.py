@@ -97,3 +97,24 @@ def test_build_manifest_generates_and_skips(tmp_path):
     calls.clear()
     build_manifest(str(topics), str(web), "key", "envoice", "kovoice", tts=fake_tts)
     assert calls == []
+
+
+def test_build_manifest_no_duplicate_api_calls_within_run(tmp_path):
+    # 같은 영어 문장이 한 번의 실행 안에서 두 토픽에 걸쳐 등장해도 EN 생성은 1회여야 함
+    topics = tmp_path / "topics"; topics.mkdir()
+    (topics / "a.txt").write_text("He runs. | 그는 달려요.\n", encoding="utf-8")
+    (topics / "b.txt").write_text("He runs. | 그는 달린다.\n", encoding="utf-8")
+    web = tmp_path / "web"; web.mkdir()
+
+    calls = []
+    def fake_tts(text, voice_id, api_key, model="eleven_multilingual_v2"):
+        calls.append((voice_id, text))
+        return {"audio": b"X", "alignment": {
+            "characters": list(text),
+            "character_start_times_seconds": [i * 0.1 for i in range(len(text))],
+            "character_end_times_seconds": [(i + 1) * 0.1 for i in range(len(text))],
+        }}
+
+    build_manifest(str(topics), str(web), "k", "envoice", "kovoice", tts=fake_tts)
+    en_calls = [c for c in calls if c == ("envoice", "He runs.")]
+    assert len(en_calls) == 1

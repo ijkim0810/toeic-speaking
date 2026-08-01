@@ -29,7 +29,7 @@ ElevenLabs를 **실시간 호출하지 않는다.** 문장을 넣으면 **한 �
   - `audio/<hash>.mp3` (영어/한글 각각)
   - `manifest.json` — 주제별로 문장 배열. 각 문장: `{ en, ko, enAudio, koAudio, words: [{text, start, end}] }`
 - 재실행 시: 이미 생성된 문장(내용 동일)은 건너뛰어 API 비용 낭비 방지 (내용 해시 기준)
-- 의존성: `requests` 만. API 키는 환경변수 `ELEVENLABS_API_KEY` 로 읽음 (파일에 하드코딩 금지)
+- 의존성: 없음(파이썬 표준 라이브러리만, HTTP는 `urllib.request`). API 키는 환경변수 `ELEVENLABS_API_KEY` 로 읽음 (파일에 하드코딩 금지)
 
 ### B. 연습 웹페이지 (정적 HTML 1개 + PWA)
 - 바닐라 HTML/CSS/JS. 프레임워크 없음.
