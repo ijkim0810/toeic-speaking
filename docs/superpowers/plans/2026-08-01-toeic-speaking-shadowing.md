@@ -502,6 +502,8 @@ if (typeof module !== "undefined") {
 }
 ```
 
+> 브라우저에서는 이 파일을 **classic script**(`<script src="player-core.js">`)로 로드한다. 최상위 `function` 선언은 자동으로 전역이 되어 index.html이 그대로 호출한다 (`typeof module` 가드는 브라우저에서 no-op). ES `import`를 쓰면 이 파일에 `export`가 없어 링크 단계에서 실패하므로 module import를 쓰지 않는다.
+
 - [ ] **Step 4: 테스트 통과 확인**
 
 Run: `node --test web/player-core.test.js`
@@ -583,9 +585,9 @@ git commit -m "feat: pure player-core (activeWordIndex, buildSchedule)"
 
 <audio id="audio"></audio>
 
-<script type="module">
-import { activeWordIndex, buildSchedule } from "./player-core.js";
-
+<script src="player-core.js"></script>
+<script>
+// player-core.js(classic script)가 activeWordIndex, buildSchedule를 전역으로 제공.
 const $ = (id) => document.getElementById(id);
 let manifest = null, running = false, curSentence = null;
 const audio = $("audio");

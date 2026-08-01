@@ -52,9 +52,9 @@
 
 <audio id="audio"></audio>
 
-<script type="module">
-import { activeWordIndex, buildSchedule } from "./player-core.js";
-
+<script src="player-core.js"></script>
+<script>
+// player-core.js (classic script) exposes activeWordIndex, buildSchedule as globals.
 const $ = (id) => document.getElementById(id);
 let manifest = null, running = false, curSentence = null;
 const audio = $("audio");
