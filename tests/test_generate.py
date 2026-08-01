@@ -63,3 +63,37 @@ def test_tts_decodes_base64_and_returns_alignment():
     # 반환값 검증
     assert out["audio"] == b"MP3BYTES"
     assert out["alignment"]["characters"] == ["H", "i"]
+
+import json
+from generate import build_manifest
+
+def test_build_manifest_generates_and_skips(tmp_path):
+    topics = tmp_path / "topics"; topics.mkdir()
+    (topics / "daily.txt").write_text("He runs. | 그는 달려요.\n", encoding="utf-8")
+    web = tmp_path / "web"; web.mkdir()
+
+    calls = []
+    def fake_tts(text, voice_id, api_key, model="eleven_multilingual_v2"):
+        calls.append(text)
+        return {"audio": b"X", "alignment": {
+            "characters": list(text),
+            "character_start_times_seconds": [i * 0.1 for i in range(len(text))],
+            "character_end_times_seconds": [(i + 1) * 0.1 for i in range(len(text))],
+        }}
+
+    m = build_manifest(str(topics), str(web), "key", "envoice", "kovoice", tts=fake_tts)
+
+    # 구조 검증
+    topic = m["topics"][0]
+    assert topic["id"] == "daily"
+    s = topic["sentences"][0]
+    assert s["en"] == "He runs." and s["ko"] == "그는 달려요."
+    assert s["words"][0]["text"] == "He"
+    assert (web / s["enAudio"]).exists() and (web / s["koAudio"]).exists()
+    assert (web / "manifest.json").exists()
+    assert json.loads((web / "manifest.json").read_text(encoding="utf-8")) == m
+
+    # 재실행 시 오디오 재생성 안 함 (파일 존재 → tts 호출 0)
+    calls.clear()
+    build_manifest(str(topics), str(web), "key", "envoice", "kovoice", tts=fake_tts)
+    assert calls == []
