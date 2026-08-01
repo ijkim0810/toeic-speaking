@@ -1,0 +1,11 @@
+{
+  "name": "TOEIC Speaking 섀도잉",
+  "short_name": "섀도잉",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#eaf6ff",
+  "theme_color": "#bfe3ff",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
