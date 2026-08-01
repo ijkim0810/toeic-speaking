@@ -60,8 +60,8 @@ def tts_with_timestamps(text, voice_id, api_key, model="eleven_multilingual_v2")
     }
 
 
-EN_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
-KO_VOICE_ID = "21m00Tcm4TlvDq8ikWAM"
+EN_VOICE_ID = "nPczCjzI2devNBz1zQrb"   # Brian (미국 남성)
+KO_VOICE_ID = "wNzr5UkgSu9yW9YkgI5h"   # Yona (한국어 여성, 원어민)
 MODEL = "eleven_multilingual_v2"
 
 
@@ -113,11 +113,26 @@ def build_manifest(topics_dir, web_dir, api_key, en_voice, ko_voice, tts=tts_wit
     return manifest
 
 
+def _load_dotenv(root):
+    """프로젝트 루트의 .env가 있으면 환경변수로 로드 (KEY=VALUE 형식)."""
+    path = os.path.join(root, ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip())
+
+
 def main():
+    root = os.path.dirname(os.path.abspath(__file__))
+    _load_dotenv(root)
     api_key = os.environ.get("ELEVENLABS_API_KEY")
     if not api_key:
         raise SystemExit("환경변수 ELEVENLABS_API_KEY 를 설정하세요.")
-    root = os.path.dirname(os.path.abspath(__file__))
     build_manifest(os.path.join(root, "topics"), os.path.join(root, "web"),
                    api_key, EN_VOICE_ID, KO_VOICE_ID)
     print("완료: web/manifest.json 생성됨")
