@@ -5,14 +5,6 @@ function activeWordIndex(words, t) {
   return -1;
 }
 
-function buildSchedule(sentence, repeats) {
-  const out = [{ lang: "ko", text: sentence.ko, audio: sentence.koAudio }];
-  for (let i = 0; i < repeats; i++) {
-    out.push({ lang: "en", text: sentence.en, audio: sentence.enAudio });
-  }
-  return out;
-}
-
 if (typeof module !== "undefined") {
-  module.exports = { activeWordIndex, buildSchedule };
+  module.exports = { activeWordIndex };
 }

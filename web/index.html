@@ -29,6 +29,9 @@
          border-radius:50%; background:#ffffffcc; display:flex; align-items:center;
          justify-content:center; border:1px solid #cfe3f5; cursor:pointer; }
   #status { color:#4a6a88; font-size:14px; }
+  .nav { display:flex; gap:14px; align-items:center; justify-content:center; }
+  .nav button { min-width:104px; }
+  #counter { color:#4a6a88; font-size:15px; min-width:64px; text-align:center; }
   .hidden { display:none; }
 </style>
 </head>
@@ -48,78 +51,113 @@
     <div class="ko" id="ko"></div>
     <button class="mic" id="mic" title="현재 문장 다시 듣기">🎙️</button>
   </div>
+  <div class="nav">
+    <button id="prev">◀ 이전</button>
+    <span id="counter"></span>
+    <button id="next">다음 ▶</button>
+  </div>
 </div>
 
 <audio id="audio"></audio>
 
 <script src="player-core.js"></script>
 <script>
-// player-core.js (classic script) exposes activeWordIndex, buildSchedule as globals.
+// player-core.js (classic script) exposes activeWordIndex as a global.
 const $ = (id) => document.getElementById(id);
-let manifest = null, running = false, curSentence = null;
 const audio = $("audio");
+let manifest = null, sentences = [], idx = 0, running = false;
+let token = 0;         // 재생 세션 식별자 (증가하면 진행 중 재생/대기가 취소됨)
+let interrupt = null;  // 현재 await 중인 재생/간격을 즉시 끝내는 함수
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// 반복·간격은 매번 새로 읽어 재생 중 조정이 바로 반영되게 함
+const repeats = () => Math.min(10, Math.max(1, +$("repeats").value || 5));
+const gapMs = () => Math.max(0, +$("gap").value || 0) * 1000;
 
 async function load() {
   manifest = await (await fetch("manifest.json")).json();
   $("topic").innerHTML = manifest.topics
     .map((t) => `<option value="${t.id}">${t.title}</option>`).join("");
+  selectTopic();
+}
+
+function selectTopic() {
+  const t = manifest.topics.find((x) => x.id === $("topic").value);
+  sentences = t ? t.sentences : [];
+  idx = 0; cancel(); render();
 }
 
 function renderWords(words) {
-  $("en").innerHTML = words
-    .map((w, i) => `<span class="w" data-i="${i}">${w.text}</span>`).join(" ");
+  $("en").innerHTML = words.map((w) => `<span class="w">${w.text}</span>`).join(" ");
+}
+
+function render() {
+  const s = sentences[idx];
+  if (!s) { $("en").textContent = "문장이 없습니다"; $("ko").textContent = ""; $("counter").textContent = ""; return; }
+  renderWords(s.words);                 // 가운데는 항상 영어 (한글은 아래 .ko 에만 → 중복 제거)
+  $("ko").textContent = s.ko;
+  $("counter").textContent = `${idx + 1} / ${sentences.length}`;
 }
 
 function highlight(words, t) {
-  const idx = activeWordIndex(words, t);
-  const spans = $("en").querySelectorAll(".w");
-  spans.forEach((el, i) => {
-    el.classList.toggle("cur", i === idx);
-    // "이미 말한" 단어는 재생 시각 기준으로 판정 → 단어 사이 공백 구간에도 유지됨
+  const cur = activeWordIndex(words, t);
+  $("en").querySelectorAll(".w").forEach((el, i) => {
+    el.classList.toggle("cur", i === cur);
+    // "이미 말한" 단어는 재생 시각 기준 → 단어 사이 공백에서도 유지됨
     el.classList.toggle("spoken", words[i].end <= t);
   });
 }
 
-function playOnce(item, words) {
+// 오디오 1회 재생: 정상 종료 "ended", 취소 시 "interrupt" 반환
+function playAudio(src, words) {
   return new Promise((resolve) => {
-    audio.src = item.audio;
+    audio.src = src;
     const onUpdate = () => { if (words) highlight(words, audio.currentTime); };
-    const onEnd = () => {
+    const finish = (why) => {
       audio.removeEventListener("timeupdate", onUpdate);
-      audio.removeEventListener("ended", onEnd);
-      if (words) highlight(words, 1e9); // 끝: 전부 spoken 처리
-      resolve();
+      audio.removeEventListener("ended", onEnded);
+      interrupt = null; resolve(why);
     };
+    const onEnded = () => { if (words) highlight(words, 1e9); finish("ended"); };
+    interrupt = () => { audio.pause(); finish("interrupt"); };
     audio.addEventListener("timeupdate", onUpdate);
-    audio.addEventListener("ended", onEnd);
+    audio.addEventListener("ended", onEnded);
     audio.play();
   });
 }
 
-async function runTopic(topic) {
-  const repeats = Math.max(1, +$("repeats").value || 5);
-  const gapMs = (+$("gap").value || 0) * 1000;
-  for (const s of topic.sentences) {
-    if (!running) return;
-    curSentence = s;
-    const schedule = buildSchedule(s, repeats);
-    for (let k = 0; k < schedule.length; k++) {
-      if (!running) return;
-      const item = schedule[k];
-      $("ko").textContent = s.ko;
-      if (item.lang === "en") { renderWords(s.words); }
-      else { $("en").textContent = "🇰🇷 " + s.ko; }
-      $("status").textContent =
-        item.lang === "ko" ? "한글 뜻" : `영어 ${k}/${repeats}`;
-      await playOnce(item, item.lang === "en" ? s.words : null);
-      if (!running) return;
-      if (gapMs) await sleep(gapMs);
+// 간격 대기: 정상 "ended", 취소 "interrupt"
+function waitGap(ms) {
+  return new Promise((resolve) => {
+    if (!ms) { resolve("ended"); return; }
+    const id = setTimeout(() => { interrupt = null; resolve("ended"); }, ms);
+    interrupt = () => { clearTimeout(id); interrupt = null; resolve("interrupt"); };
+  });
+}
+
+// 진행 중 재생/대기 취소 + 새 세션 토큰 발급
+function cancel() { token++; if (interrupt) interrupt(); }
+
+async function run(myToken) {
+  while (myToken === token && idx >= 0 && idx < sentences.length) {
+    const s = sentences[idx];
+    render();
+    $("status").textContent = "한글 뜻";
+    if (await playAudio(s.koAudio, null) === "interrupt" || myToken !== token) return;
+    if (await waitGap(gapMs()) === "interrupt" || myToken !== token) return;
+    let i = 0;
+    while (myToken === token && i < repeats()) {
+      $("status").textContent = `영어 ${i + 1} / ${repeats()}`;
+      if (await playAudio(s.enAudio, s.words) === "interrupt" || myToken !== token) return;
+      if (await waitGap(gapMs()) === "interrupt" || myToken !== token) return;
+      i++;
     }
+    if (myToken !== token) return;
+    idx++;
   }
-  $("status").textContent = "완료 ✅";
-  running = false; toggleButtons();
+  if (myToken === token) {
+    running = false; idx = Math.max(0, Math.min(idx, sentences.length - 1));
+    render(); $("status").textContent = "완료 ✅"; toggleButtons();
+  }
 }
 
 function toggleButtons() {
@@ -127,18 +165,32 @@ function toggleButtons() {
   $("stop").classList.toggle("hidden", !running);
 }
 
-$("start").onclick = () => {
-  const topic = manifest.topics.find((t) => t.id === $("topic").value);
-  if (!topic) return;
+function startPlay() {
+  if (!sentences.length) return;
   running = true; toggleButtons();
-  runTopic(topic);
-};
-$("stop").onclick = () => { running = false; audio.pause(); toggleButtons(); $("status").textContent = "정지됨"; };
-$("mic").onclick = () => {
-  // 자동재생 중에는 공유 <audio> 충돌로 루프가 멈추므로 무시 (정지 후에만 수동 다시듣기)
-  if (running || !curSentence) return;
-  renderWords(curSentence.words);
-  playOnce({audio: curSentence.enAudio}, curSentence.words);
+  cancel(); run(token);
+}
+function stopPlay() {
+  running = false; toggleButtons();
+  cancel(); $("status").textContent = "정지됨";
+}
+function go(delta) {
+  const n = idx + delta;
+  if (n < 0 || n >= sentences.length) return;
+  idx = n; cancel(); render();
+  if (running) run(token);                       // 자동재생 중이면 새 문장부터 이어감
+  else $("status").textContent = `${idx + 1} / ${sentences.length}`;
+}
+
+$("start").onclick = startPlay;
+$("stop").onclick = stopPlay;
+$("prev").onclick = () => go(-1);
+$("next").onclick = () => go(1);
+$("topic").onchange = selectTopic;
+$("mic").onclick = () => {                        // 정지 상태에서 현재 영어 문장 다시 듣기
+  if (running || !sentences[idx]) return;
+  cancel(); render();
+  playAudio(sentences[idx].enAudio, sentences[idx].words);
 };
 
 load();
