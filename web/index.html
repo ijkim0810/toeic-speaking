@@ -36,7 +36,8 @@
 </head>
 <body>
 <header>
-  <label>주제 <select id="topic"></select></label>
+  <label>Part <select id="part"></select></label>
+  <label>Task <select id="task"></select></label>
   <label>반복 <input id="repeats" type="number" min="1" max="10" value="5" style="width:60px"></label>
   <label>간격(초) <input id="gap" type="number" min="0" max="10" step="0.5" value="2" style="width:60px"></label>
   <button id="start" class="primary">▶ 시작</button>
@@ -73,22 +74,24 @@ const gapMs = () => Math.max(0, +$("gap").value || 0) * 1000;
 
 async function load() {
   manifest = await (await fetch("manifest.json")).json();
-  // 그룹(Part)별로 <optgroup>, 항목(Task)은 <option>. 그룹 없으면 그냥 option.
-  const groups = {}, order = [];
-  manifest.topics.forEach((t) => {
-    const g = t.group || "";
-    if (!(g in groups)) { groups[g] = []; order.push(g); }
-    groups[g].push(t);
-  });
-  $("topic").innerHTML = order.map((g) => {
-    const opts = groups[g].map((t) => `<option value="${t.id}">${t.title}</option>`).join("");
-    return g ? `<optgroup label="${g}">${opts}</optgroup>` : opts;
-  }).join("");
-  selectTopic();
+  // Part(그룹) 목록 — 순서 유지
+  const parts = [];
+  manifest.topics.forEach((t) => { const g = t.group || "기타"; if (!parts.includes(g)) parts.push(g); });
+  $("part").innerHTML = parts.map((g) => `<option value="${g}">${g}</option>`).join("");
+  selectPart();
 }
 
-function selectTopic() {
-  const t = manifest.topics.find((x) => x.id === $("topic").value);
+// Part 선택 → 그 Part의 Task 목록 채우기
+function selectPart() {
+  const g = $("part").value;
+  const tasks = manifest.topics.filter((t) => (t.group || "기타") === g);
+  $("task").innerHTML = tasks.map((t) => `<option value="${t.id}">${t.title}</option>`).join("");
+  selectTask();
+}
+
+// Task 선택 → 문장 로드
+function selectTask() {
+  const t = manifest.topics.find((x) => x.id === $("task").value);
   sentences = t ? t.sentences : [];
   idx = 0; cancel(); render();
 }
@@ -193,7 +196,8 @@ $("start").onclick = startPlay;
 $("stop").onclick = stopPlay;
 $("prev").onclick = () => go(-1);
 $("next").onclick = () => go(1);
-$("topic").onchange = selectTopic;
+$("part").onchange = selectPart;
+$("task").onchange = selectTask;
 
 load();
 </script>
