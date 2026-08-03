@@ -1,8 +1,11 @@
 # TOEIC Speaking Part 1 - 지문 읽기 연습 (한글 없음, 영어 발음/억양 집중)
+# 전체 지문 1회 → 문장별 연습
+You are listening to a podcast about business and innovation. Today, we will explore how technology is shaping modern workplaces. We will look at communication, productivity, and collaboration, and discuss why they are important in today's workplace. If you are a manager or an employee, this podcast will give you useful insights. |
 You are listening to a podcast about business and innovation. |
 Today, we will explore how technology is shaping modern workplaces. |
 We will look at communication, productivity, and collaboration, and discuss why they are important in today's workplace. |
 If you are a manager or an employee, this podcast will give you useful insights. |
+Welcome to the Global Culture and Arts Festival, the largest international event that celebrates creativity and tradition. Here, you will enjoy live performances, art exhibits, and film screenings from around the world. Please check the brochure for more details about the program. Now, let's begin the festival. |
 Welcome to the Global Culture and Arts Festival, the largest international event that celebrates creativity and tradition. |
 Here, you will enjoy live performances, art exhibits, and film screenings from around the world. |
 Please check the brochure for more details about the program. |
