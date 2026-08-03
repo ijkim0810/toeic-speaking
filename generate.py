@@ -107,7 +107,7 @@ def build_manifest(topics_dir, web_dir, api_key, en_voice, ko_voice, tts=tts_wit
         sentences = []
         for en, ko in parse_topic_file(path):
             en_rel, words = _ensure_audio(en, en_voice, api_key, web_dir, True, tts)
-            ko_rel, _ = _ensure_audio(ko, ko_voice, api_key, web_dir, False, tts)
+            ko_rel = _ensure_audio(ko, ko_voice, api_key, web_dir, False, tts)[0] if ko else None
             sentences.append({"en": en, "ko": ko, "enAudio": en_rel,
                               "koAudio": ko_rel, "words": words})
         topics.append({"id": topic_id, "title": title, "group": group, "sentences": sentences})

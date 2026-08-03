@@ -1,6 +1,572 @@
 {
   "topics": [
     {
+      "id": "Part1 읽기/Task1 만능문장",
+      "title": "Task1 만능문장",
+      "group": "Part1 읽기",
+      "sentences": [
+        {
+          "en": "You are listening to a podcast about business and innovation.",
+          "ko": "",
+          "enAudio": "audio/40f5cc18901a064ef37a00df787a252b121f1bb5.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "You",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "are",
+              "start": 0.197,
+              "end": 0.302
+            },
+            {
+              "text": "listening",
+              "start": 0.337,
+              "end": 0.65
+            },
+            {
+              "text": "to",
+              "start": 0.697,
+              "end": 0.755
+            },
+            {
+              "text": "a",
+              "start": 0.836,
+              "end": 0.859
+            },
+            {
+              "text": "podcast",
+              "start": 0.917,
+              "end": 1.521
+            },
+            {
+              "text": "about",
+              "start": 1.544,
+              "end": 1.753
+            },
+            {
+              "text": "business",
+              "start": 1.811,
+              "end": 2.194
+            },
+            {
+              "text": "and",
+              "start": 2.229,
+              "end": 2.31
+            },
+            {
+              "text": "innovation.",
+              "start": 2.368,
+              "end": 3.297
+            }
+          ]
+        },
+        {
+          "en": "Today, we will explore how technology is shaping modern workplaces.",
+          "ko": "",
+          "enAudio": "audio/4def2aad2fa1009b29d26fa8ab0897671fd88e96.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Today,",
+              "start": 0.0,
+              "end": 0.36
+            },
+            {
+              "text": "we",
+              "start": 0.383,
+              "end": 0.464
+            },
+            {
+              "text": "will",
+              "start": 0.499,
+              "end": 0.65
+            },
+            {
+              "text": "explore",
+              "start": 0.697,
+              "end": 1.068
+            },
+            {
+              "text": "how",
+              "start": 1.103,
+              "end": 1.196
+            },
+            {
+              "text": "technology",
+              "start": 1.254,
+              "end": 1.834
+            },
+            {
+              "text": "is",
+              "start": 1.881,
+              "end": 1.939
+            },
+            {
+              "text": "shaping",
+              "start": 1.985,
+              "end": 2.31
+            },
+            {
+              "text": "modern",
+              "start": 2.38,
+              "end": 2.624
+            },
+            {
+              "text": "workplaces.",
+              "start": 2.659,
+              "end": 3.576
+            }
+          ]
+        },
+        {
+          "en": "We will look at communication, productivity, and collaboration, and discuss why they are important in today's workplace.",
+          "ko": "",
+          "enAudio": "audio/f9e7fef78af9d5b421d73b9121956d450988ae59.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "We",
+              "start": 0.0,
+              "end": 0.163
+            },
+            {
+              "text": "will",
+              "start": 0.197,
+              "end": 0.325
+            },
+            {
+              "text": "look",
+              "start": 0.36,
+              "end": 0.499
+            },
+            {
+              "text": "at",
+              "start": 0.546,
+              "end": 0.604
+            },
+            {
+              "text": "communication,",
+              "start": 0.65,
+              "end": 1.498
+            },
+            {
+              "text": "productivity,",
+              "start": 1.649,
+              "end": 2.345
+            },
+            {
+              "text": "and",
+              "start": 2.368,
+              "end": 2.438
+            },
+            {
+              "text": "collaboration,",
+              "start": 2.485,
+              "end": 3.39
+            },
+            {
+              "text": "and",
+              "start": 3.715,
+              "end": 3.855
+            },
+            {
+              "text": "discuss",
+              "start": 3.913,
+              "end": 4.342
+            },
+            {
+              "text": "why",
+              "start": 4.423,
+              "end": 4.772
+            },
+            {
+              "text": "they",
+              "start": 4.841,
+              "end": 4.957
+            },
+            {
+              "text": "are",
+              "start": 4.992,
+              "end": 5.108
+            },
+            {
+              "text": "important",
+              "start": 5.143,
+              "end": 5.608
+            },
+            {
+              "text": "in",
+              "start": 5.666,
+              "end": 5.735
+            },
+            {
+              "text": "today's",
+              "start": 5.782,
+              "end": 6.084
+            },
+            {
+              "text": "workplace.",
+              "start": 6.13,
+              "end": 6.966
+            }
+          ]
+        },
+        {
+          "en": "If you are a manager or an employee, this podcast will give you useful insights.",
+          "ko": "",
+          "enAudio": "audio/b580887e128a826f9fe1e2595b266dacf94f9995.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "If",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "you",
+              "start": 0.209,
+              "end": 0.29
+            },
+            {
+              "text": "are",
+              "start": 0.348,
+              "end": 0.476
+            },
+            {
+              "text": "a",
+              "start": 0.511,
+              "end": 0.534
+            },
+            {
+              "text": "manager",
+              "start": 0.604,
+              "end": 0.998
+            },
+            {
+              "text": "or",
+              "start": 1.045,
+              "end": 1.115
+            },
+            {
+              "text": "an",
+              "start": 1.149,
+              "end": 1.196
+            },
+            {
+              "text": "employee,",
+              "start": 1.231,
+              "end": 1.881
+            },
+            {
+              "text": "this",
+              "start": 2.125,
+              "end": 2.276
+            },
+            {
+              "text": "podcast",
+              "start": 2.334,
+              "end": 2.821
+            },
+            {
+              "text": "will",
+              "start": 2.856,
+              "end": 2.972
+            },
+            {
+              "text": "give",
+              "start": 3.019,
+              "end": 3.123
+            },
+            {
+              "text": "you",
+              "start": 3.158,
+              "end": 3.239
+            },
+            {
+              "text": "useful",
+              "start": 3.39,
+              "end": 3.75
+            },
+            {
+              "text": "insights.",
+              "start": 3.808,
+              "end": 4.598
+            }
+          ]
+        },
+        {
+          "en": "Welcome to the Global Culture and Arts Festival, the largest international event that celebrates creativity and tradition.",
+          "ko": "",
+          "enAudio": "audio/e66d46a4861df1fb85b05e2ce3ae10170061353e.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Welcome",
+              "start": 0.0,
+              "end": 0.383
+            },
+            {
+              "text": "to",
+              "start": 0.406,
+              "end": 0.453
+            },
+            {
+              "text": "the",
+              "start": 0.499,
+              "end": 0.569
+            },
+            {
+              "text": "Global",
+              "start": 0.592,
+              "end": 0.859
+            },
+            {
+              "text": "Culture",
+              "start": 0.906,
+              "end": 1.231
+            },
+            {
+              "text": "and",
+              "start": 1.254,
+              "end": 1.324
+            },
+            {
+              "text": "Arts",
+              "start": 1.37,
+              "end": 1.544
+            },
+            {
+              "text": "Festival,",
+              "start": 1.591,
+              "end": 2.101
+            },
+            {
+              "text": "the",
+              "start": 2.171,
+              "end": 2.276
+            },
+            {
+              "text": "largest",
+              "start": 2.334,
+              "end": 2.694
+            },
+            {
+              "text": "international",
+              "start": 2.752,
+              "end": 3.448
+            },
+            {
+              "text": "event",
+              "start": 3.518,
+              "end": 3.773
+            },
+            {
+              "text": "that",
+              "start": 3.808,
+              "end": 3.936
+            },
+            {
+              "text": "celebrates",
+              "start": 3.994,
+              "end": 4.481
+            },
+            {
+              "text": "creativity",
+              "start": 4.528,
+              "end": 5.19
+            },
+            {
+              "text": "and",
+              "start": 5.224,
+              "end": 5.294
+            },
+            {
+              "text": "tradition.",
+              "start": 5.329,
+              "end": 6.13
+            }
+          ]
+        },
+        {
+          "en": "Here, you will enjoy live performances, art exhibits, and film screenings from around the world.",
+          "ko": "",
+          "enAudio": "audio/3e9d13c8bd913fda7ffb7fe8918d38f8116c7fa7.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Here,",
+              "start": 0.0,
+              "end": 0.255
+            },
+            {
+              "text": "you",
+              "start": 0.279,
+              "end": 0.348
+            },
+            {
+              "text": "will",
+              "start": 0.383,
+              "end": 0.522
+            },
+            {
+              "text": "enjoy",
+              "start": 0.569,
+              "end": 0.882
+            },
+            {
+              "text": "live",
+              "start": 0.998,
+              "end": 1.289
+            },
+            {
+              "text": "performances,",
+              "start": 1.335,
+              "end": 2.09
+            },
+            {
+              "text": "art",
+              "start": 2.148,
+              "end": 2.368
+            },
+            {
+              "text": "exhibits,",
+              "start": 2.415,
+              "end": 2.902
+            },
+            {
+              "text": "and",
+              "start": 2.972,
+              "end": 3.123
+            },
+            {
+              "text": "film",
+              "start": 3.216,
+              "end": 3.437
+            },
+            {
+              "text": "screenings",
+              "start": 3.495,
+              "end": 3.901
+            },
+            {
+              "text": "from",
+              "start": 3.936,
+              "end": 4.063
+            },
+            {
+              "text": "around",
+              "start": 4.11,
+              "end": 4.342
+            },
+            {
+              "text": "the",
+              "start": 4.377,
+              "end": 4.447
+            },
+            {
+              "text": "world.",
+              "start": 4.481,
+              "end": 5.062
+            }
+          ]
+        },
+        {
+          "en": "Please check the brochure for more details about the program.",
+          "ko": "",
+          "enAudio": "audio/83ee27c95b5463470d9e75fa206bb62de903c389.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Please",
+              "start": 0.0,
+              "end": 0.395
+            },
+            {
+              "text": "check",
+              "start": 0.441,
+              "end": 0.662
+            },
+            {
+              "text": "the",
+              "start": 0.72,
+              "end": 0.789
+            },
+            {
+              "text": "brochure",
+              "start": 0.824,
+              "end": 1.312
+            },
+            {
+              "text": "for",
+              "start": 1.358,
+              "end": 1.463
+            },
+            {
+              "text": "more",
+              "start": 1.509,
+              "end": 1.66
+            },
+            {
+              "text": "details",
+              "start": 1.707,
+              "end": 2.09
+            },
+            {
+              "text": "about",
+              "start": 2.125,
+              "end": 2.299
+            },
+            {
+              "text": "the",
+              "start": 2.322,
+              "end": 2.392
+            },
+            {
+              "text": "program.",
+              "start": 2.426,
+              "end": 3.158
+            }
+          ]
+        },
+        {
+          "en": "Now, let's begin the festival.",
+          "ko": "",
+          "enAudio": "audio/04de30933eeecaec6d26be1a8ccbb825fa1d048c.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Now,",
+              "start": 0.0,
+              "end": 0.186
+            },
+            {
+              "text": "let's",
+              "start": 0.209,
+              "end": 0.383
+            },
+            {
+              "text": "begin",
+              "start": 0.441,
+              "end": 0.72
+            },
+            {
+              "text": "the",
+              "start": 0.766,
+              "end": 0.836
+            },
+            {
+              "text": "festival.",
+              "start": 0.882,
+              "end": 1.672
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "Part2 사진묘사/Task1 만능문장",
       "title": "Task1 만능문장",
       "group": "Part2 사진묘사",
