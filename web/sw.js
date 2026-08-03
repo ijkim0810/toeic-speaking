@@ -29,7 +29,7 @@ self.addEventListener("fetch", (e) => {
     );
   } else {
     e.respondWith(
-      fetch(e.request).then((resp) => {
+      fetch(e.request, { cache: "no-store" }).then((resp) => {
         const copy = resp.clone();
         caches.open(CACHE).then((c) => c.put(e.request, copy));
         return resp;
