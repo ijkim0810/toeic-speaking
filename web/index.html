@@ -27,6 +27,9 @@
   .en .w.spoken { color:#12406e; }                         /* 이미 읽은 단어 */
   .en .w.cur { color:#0a63b8; }                            /* 현재 단어 */
   .ko { margin-top:16px; font-size:19px; text-align:center; color:#3a5a78; }
+  .q { font-size:16px; font-weight:600; text-align:center; color:#2f5f8a; margin-bottom:14px; }
+  .extra { margin:16px 0 0; padding:0 0 0 20px; font-size:16px; color:#3a5a78; }
+  .extra li { margin-top:4px; }
   #status { color:#4a6a88; font-size:14px; }
   .nav { display:flex; gap:14px; align-items:center; justify-content:center; }
   .nav button { min-width:104px; }
@@ -48,8 +51,10 @@
 
 <div id="stage">
   <div class="card">
+    <div class="q hidden" id="q"></div>
     <div class="en-box"><div class="en" id="en">주제를 고르고 시작을 누르세요</div></div>
     <div class="ko" id="ko"></div>
+    <ul class="extra hidden" id="extra"></ul>
   </div>
   <div class="nav">
     <button id="prev">◀ 이전</button>
@@ -105,8 +110,13 @@ function renderWords(words) {
 function render() {
   const s = sentences[idx];
   if (!s) { $("en").textContent = "문장이 없습니다"; $("ko").textContent = ""; $("counter").textContent = ""; return; }
+  $("q").textContent = s.question || "";
+  $("q").classList.toggle("hidden", !s.question);
   renderWords(s.words);                 // 가운데는 항상 영어 (한글은 아래 .ko 에만 → 중복 제거)
   $("ko").textContent = s.ko;
+  const extra = s.extra || [];
+  $("extra").innerHTML = extra.map((t) => `<li>${t}</li>`).join("");
+  $("extra").classList.toggle("hidden", !extra.length);
   $("counter").textContent = `${idx + 1} / ${sentences.length}`;
 }
 
@@ -154,6 +164,11 @@ async function run(myToken) {
   while (myToken === token && idx >= 0 && idx < sentences.length) {
     const s = sentences[idx];
     render();
+    if (s.questionAudio) {
+      $("status").textContent = "질문";
+      if (await playAudio(s.questionAudio, null) === "interrupt" || myToken !== token) return;
+      if (await waitGap(gapMs()) === "interrupt" || myToken !== token) return;
+    }
     if (s.koAudio) {
       $("status").textContent = "한글 뜻";
       if (await playAudio(s.koAudio, null) === "interrupt" || myToken !== token) return;

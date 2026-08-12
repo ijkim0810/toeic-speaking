@@ -7,17 +7,42 @@ import urllib.request
 
 
 def parse_topic_file(path):
-    rows = []
+    """항목을 읽는다. 한 줄 = `영어 | 한글`인 단순 문장이 기본형이고,
+    Part3처럼 질문+답변을 한 화면에 묶어야 할 때는 다음 확장 문법을 쓴다:
+      Q: <질문 영어>       - 다음 항목의 질문 (음성 1회만 재생, 반복 없음)
+      - <영어 문장>         - 직전 항목에 붙는 추가 예문 (텍스트만, 음성 없음)
+    """
+    items = []
+    cur = None
+
+    def flush():
+        if cur is not None and cur["en"] is not None:
+            items.append(cur)
+
     with open(path, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
+            if line.startswith("Q:"):
+                flush()
+                cur = {"question": line[2:].strip(), "en": None, "ko": "", "extra": []}
+                continue
+            if line.startswith("- "):
+                if cur is None:
+                    cur = {"question": None, "en": None, "ko": "", "extra": []}
+                cur["extra"].append(line[2:].strip())
+                continue
             if "|" not in line:
                 continue
             en, ko = line.split("|", 1)
-            rows.append((en.strip(), ko.strip()))
-    return rows
+            if cur is not None and cur["en"] is None:
+                cur["en"], cur["ko"] = en.strip(), ko.strip()
+            else:
+                flush()
+                cur = {"question": None, "en": en.strip(), "ko": ko.strip(), "extra": []}
+        flush()
+    return items
 
 
 def group_words(characters, starts, ends):
@@ -105,11 +130,15 @@ def build_manifest(topics_dir, web_dir, api_key, en_voice, ko_voice, tts=tts_wit
         title = os.path.splitext(os.path.basename(path))[0]    # "Task1 만능문장"
         group = os.path.dirname(rel)                            # "Part2 사진묘사" (없으면 "")
         sentences = []
-        for en, ko in parse_topic_file(path):
+        for item in parse_topic_file(path):
+            en, ko = item["en"], item["ko"]
             en_rel, words = _ensure_audio(en, en_voice, api_key, web_dir, True, tts)
             ko_rel = _ensure_audio(ko, ko_voice, api_key, web_dir, False, tts)[0] if ko else None
-            sentences.append({"en": en, "ko": ko, "enAudio": en_rel,
-                              "koAudio": ko_rel, "words": words})
+            q_rel = (_ensure_audio(item["question"], en_voice, api_key, web_dir, False, tts)[0]
+                     if item["question"] else None)
+            sentences.append({"en": en, "ko": ko, "enAudio": en_rel, "koAudio": ko_rel,
+                              "words": words, "question": item["question"],
+                              "questionAudio": q_rel, "extra": item["extra"]})
         topics.append({"id": topic_id, "title": title, "group": group, "sentences": sentences})
     manifest = {"topics": topics}
     with open(os.path.join(web_dir, "manifest.json"), "w", encoding="utf-8") as f:

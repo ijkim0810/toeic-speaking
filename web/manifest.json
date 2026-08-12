@@ -271,7 +271,10 @@
               "start": 18.831,
               "end": 19.644
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "You are listening to a podcast about business and innovation.",
@@ -329,7 +332,10 @@
               "start": 2.368,
               "end": 3.297
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Today, we will explore how technology is shaping modern workplaces.",
@@ -387,7 +393,10 @@
               "start": 2.659,
               "end": 3.576
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "We will look at communication, productivity, and collaboration, and discuss why they are important in today's workplace.",
@@ -480,7 +489,10 @@
               "start": 6.13,
               "end": 6.966
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "If you are a manager or an employee, this podcast will give you useful insights.",
@@ -563,7 +575,10 @@
               "start": 3.808,
               "end": 4.598
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Welcome to the Global Culture and Arts Festival, the largest international event that celebrates creativity and tradition. Here, you will enjoy live performances, art exhibits, and film screenings from around the world. Please check the brochure for more details about the program. Now, let's begin the festival.",
@@ -806,7 +821,10 @@
               "start": 17.566,
               "end": 18.391
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Welcome to the Global Culture and Arts Festival, the largest international event that celebrates creativity and tradition.",
@@ -899,7 +917,10 @@
               "start": 5.329,
               "end": 6.13
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Here, you will enjoy live performances, art exhibits, and film screenings from around the world.",
@@ -982,7 +1003,10 @@
               "start": 4.481,
               "end": 5.062
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Please check the brochure for more details about the program.",
@@ -1040,7 +1064,10 @@
               "start": 2.426,
               "end": 3.158
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Now, let's begin the festival.",
@@ -1073,7 +1100,10 @@
               "start": 0.882,
               "end": 1.672
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         }
       ]
     },
@@ -1128,7 +1158,10 @@
               "start": 1.242,
               "end": 1.765
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "The first thing I can see in this picture is two women.",
@@ -1196,7 +1229,10 @@
               "start": 2.206,
               "end": 2.833
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "In the foreground/middle/background of the picture, I can see a fountain.",
@@ -1259,7 +1295,10 @@
               "start": 3.529,
               "end": 4.226
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "On the left/right side of the picture, there is a sidewalk.",
@@ -1322,7 +1361,10 @@
               "start": 2.194,
               "end": 3.065
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Next to her, there is another woman.",
@@ -1365,7 +1407,10 @@
               "start": 1.718,
               "end": 2.322
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Behind her, I can see two men standing.",
@@ -1413,7 +1458,10 @@
               "start": 1.44,
               "end": 2.229
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Most of them are wearing formal clothes.",
@@ -1456,7 +1504,10 @@
               "start": 1.358,
               "end": 2.136
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "Some of them are wearing casual clothes.",
@@ -1499,7 +1550,10 @@
               "start": 1.533,
               "end": 2.229
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is looking at a menu.",
@@ -1537,7 +1591,10 @@
               "start": 0.882,
               "end": 1.533
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is writing something down.",
@@ -1570,7 +1627,10 @@
               "start": 1.022,
               "end": 1.579
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is Drinking some water.",
@@ -1603,7 +1663,10 @@
               "start": 0.894,
               "end": 1.533
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is serving food to customers.",
@@ -1641,7 +1704,10 @@
               "start": 1.08,
               "end": 1.95
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is holding a cup.",
@@ -1674,7 +1740,10 @@
               "start": 0.859,
               "end": 1.44
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are standing at the cashier.",
@@ -1712,7 +1781,10 @@
               "start": 1.057,
               "end": 1.997
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are having a conversation.",
@@ -1745,7 +1817,10 @@
               "start": 0.813,
               "end": 1.765
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is looking into a bag",
@@ -1783,7 +1858,10 @@
               "start": 1.173,
               "end": 1.811
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is helping customers.",
@@ -1811,7 +1889,10 @@
               "start": 0.627,
               "end": 1.44
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are sitting at a table.",
@@ -1849,7 +1930,10 @@
               "start": 1.161,
               "end": 1.904
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is looking for something.",
@@ -1882,7 +1966,10 @@
               "start": 0.871,
               "end": 1.533
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is handing over a credit card.",
@@ -1925,7 +2012,10 @@
               "start": 1.382,
               "end": 1.997
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is pushing a cart.",
@@ -1958,7 +2048,10 @@
               "start": 0.755,
               "end": 1.393
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is looking at a product.",
@@ -1996,7 +2089,10 @@
               "start": 0.906,
               "end": 1.625
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are waiting in line.",
@@ -2029,7 +2125,10 @@
               "start": 0.824,
               "end": 1.486
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are arranging items.",
@@ -2057,7 +2156,10 @@
               "start": 0.871,
               "end": 1.579
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is holding a shopping bag.",
@@ -2095,7 +2197,10 @@
               "start": 1.173,
               "end": 1.765
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is reaching for an item.",
@@ -2133,7 +2238,10 @@
               "start": 1.207,
               "end": 1.858
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is holding a plastic bag.",
@@ -2171,7 +2279,10 @@
               "start": 1.033,
               "end": 1.672
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is raising his hand.",
@@ -2204,7 +2315,10 @@
               "start": 0.813,
               "end": 1.393
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is holding a document.",
@@ -2237,7 +2351,10 @@
               "start": 0.755,
               "end": 1.533
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is making a presentation.",
@@ -2270,7 +2387,10 @@
               "start": 0.697,
               "end": 1.672
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is using a tablet PC.",
@@ -2308,7 +2428,10 @@
               "start": 0.987,
               "end": 1.718
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are reading a document.",
@@ -2341,7 +2464,10 @@
               "start": 0.72,
               "end": 1.486
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is hanging his clothes on a rack.",
@@ -2389,7 +2515,10 @@
               "start": 1.498,
               "end": 2.136
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is picking up a piece of paper.",
@@ -2437,7 +2566,10 @@
               "start": 1.358,
               "end": 2.043
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "There is a man taking a picture.",
@@ -2480,7 +2612,10 @@
               "start": 1.277,
               "end": 1.997
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is walking a dog.",
@@ -2513,7 +2648,10 @@
               "start": 0.824,
               "end": 1.533
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is lying on the ground.",
@@ -2551,7 +2689,10 @@
               "start": 1.01,
               "end": 1.672
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is pushing a baby stroller.",
@@ -2589,7 +2730,10 @@
               "start": 1.335,
               "end": 2.043
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is riding a boat.",
@@ -2622,7 +2766,10 @@
               "start": 0.813,
               "end": 1.393
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is loading a box into a truck.",
@@ -2670,7 +2817,10 @@
               "start": 1.405,
               "end": 2.09
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "He is relaxing on a beach chair.",
@@ -2713,7 +2863,10 @@
               "start": 1.416,
               "end": 2.043
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are walking down the stairs.",
@@ -2751,7 +2904,10 @@
               "start": 0.964,
               "end": 1.672
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are crossing the street.",
@@ -2784,7 +2940,10 @@
               "start": 0.975,
               "end": 1.672
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are walking on the street.",
@@ -2822,7 +2981,10 @@
               "start": 1.219,
               "end": 1.904
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "She is looking at a smartphone.",
@@ -2860,7 +3022,10 @@
               "start": 0.906,
               "end": 1.765
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         },
         {
           "en": "They are performing.",
@@ -2883,7 +3048,10 @@
               "start": 0.418,
               "end": 1.393
             }
-          ]
+          ],
+          "question": null,
+          "questionAudio": null,
+          "extra": []
         }
       ]
     },
@@ -2898,99 +3066,6 @@
       "title": "Task1 만능문장",
       "group": "Part3 듣고 답하기",
       "sentences": [
-        {
-          "en": "Q1) What do you usually do if you can't fall asleep easily? Why do you do that?",
-          "ko": "",
-          "enAudio": "audio/925326c88b39808eb3c80203d0e85835f68905e3.mp3",
-          "koAudio": null,
-          "words": [
-            {
-              "text": "Q1)",
-              "start": 0.0,
-              "end": 0.58
-            },
-            {
-              "text": "What",
-              "start": 0.673,
-              "end": 0.848
-            },
-            {
-              "text": "do",
-              "start": 0.882,
-              "end": 0.952
-            },
-            {
-              "text": "you",
-              "start": 1.01,
-              "end": 1.091
-            },
-            {
-              "text": "usually",
-              "start": 1.207,
-              "end": 1.567
-            },
-            {
-              "text": "do",
-              "start": 1.614,
-              "end": 1.73
-            },
-            {
-              "text": "if",
-              "start": 1.788,
-              "end": 1.858
-            },
-            {
-              "text": "you",
-              "start": 1.904,
-              "end": 1.974
-            },
-            {
-              "text": "can't",
-              "start": 2.032,
-              "end": 2.241
-            },
-            {
-              "text": "fall",
-              "start": 2.276,
-              "end": 2.45
-            },
-            {
-              "text": "asleep",
-              "start": 2.496,
-              "end": 2.775
-            },
-            {
-              "text": "easily?",
-              "start": 2.833,
-              "end": 3.309
-            },
-            {
-              "text": "Why",
-              "start": 3.518,
-              "end": 3.692
-            },
-            {
-              "text": "do",
-              "start": 3.727,
-              "end": 3.785
-            },
-            {
-              "text": "you",
-              "start": 3.82,
-              "end": 3.889
-            },
-            {
-              "text": "do",
-              "start": 3.936,
-              "end": 4.029
-            },
-            {
-              "text": "that?",
-              "start": 4.087,
-              "end": 4.69
-            }
-          ]
-        },
         {
           "en": "I usually listen to music if I can't fall asleep easily because it's helpful for falling asleep.",
           "ko": "저는 쉽게 잠들지 못할 때 보통 음악을 들어요. 왜냐하면 잠드는 데 도움이 되기 때문이에요.",
@@ -3082,330 +3157,100 @@
               "start": 4.911,
               "end": 5.619
             }
+          ],
+          "question": "Q1) What do you usually do if you can't fall asleep easily? Why do you do that?",
+          "questionAudio": "audio/925326c88b39808eb3c80203d0e85835f68905e3.mp3",
+          "extra": [
+            "It's very helpful to me.",
+            "It's very helpful for falling asleep."
           ]
         },
         {
-          "en": "Q2) Do you think using your phone before bed affects your sleep? Why or why not?",
-          "ko": "",
-          "enAudio": "audio/c4f3e0f8e72f8f09f14b68fd8ae5da5bd6e54527.mp3",
-          "koAudio": null,
-          "words": [
-            {
-              "text": "Q2)",
-              "start": 0.0,
-              "end": 0.615
-            },
-            {
-              "text": "Do",
-              "start": 0.697,
-              "end": 0.789
-            },
-            {
-              "text": "you",
-              "start": 0.848,
-              "end": 0.917
-            },
-            {
-              "text": "think",
-              "start": 0.964,
-              "end": 1.126
-            },
-            {
-              "text": "using",
-              "start": 1.196,
-              "end": 1.44
-            },
-            {
-              "text": "your",
-              "start": 1.474,
-              "end": 1.579
-            },
-            {
-              "text": "phone",
-              "start": 1.614,
-              "end": 1.823
-            },
-            {
-              "text": "before",
-              "start": 1.858,
-              "end": 2.113
-            },
-            {
-              "text": "bed",
-              "start": 2.148,
-              "end": 2.31
-            },
-            {
-              "text": "affects",
-              "start": 2.345,
-              "end": 2.612
-            },
-            {
-              "text": "your",
-              "start": 2.647,
-              "end": 2.752
-            },
-            {
-              "text": "sleep?",
-              "start": 2.786,
-              "end": 3.17
-            },
-            {
-              "text": "Why",
-              "start": 3.495,
-              "end": 3.855
-            },
-            {
-              "text": "or",
-              "start": 3.936,
-              "end": 4.052
-            },
-            {
-              "text": "why",
-              "start": 4.11,
-              "end": 4.238
-            },
-            {
-              "text": "not?",
-              "start": 4.319,
-              "end": 4.876
-            }
-          ]
-        },
-        {
-          "en": "Yes, I think using my phone before bed affects my sleep because it's very distracting. It is very distracting for students, so students can't focus on their studies.",
-          "ko": "네, 저는 잠들기 전에 휴대폰을 사용하는 것이 제 수면에 영향을 준다고 생각해요, 왜냐하면 그것이 집중을 매우 방해하기 때문이에요. 그것은 학생들의 집중을 분산시켜서 학생들은 공부에 집중할 수 없어요.",
-          "enAudio": "audio/58f95bea7b26aca95cde857e79974ae7efc05eeb.mp3",
-          "koAudio": "audio/451952ed6fbfae5e9f40dda3c094427834ee373c.mp3",
+          "en": "Yes, I think using my phone before bed affects my sleep because it's very distracting.",
+          "ko": "네, 저는 잠들기 전에 휴대폰을 사용하는 것이 제 수면에 영향을 준다고 생각해요, 왜냐하면 그것이 집중을 매우 방해하기 때문이에요.",
+          "enAudio": "audio/e985e26e29352e661bb088ef54e7f26b16b244aa.mp3",
+          "koAudio": "audio/6e5ff1962f3be6f1cdfa8afa97e141a69c474f05.mp3",
           "words": [
             {
               "text": "Yes,",
               "start": 0.0,
-              "end": 0.279
+              "end": 0.441
             },
             {
               "text": "I",
-              "start": 0.313,
-              "end": 0.348
+              "start": 0.534,
+              "end": 0.58
             },
             {
               "text": "think",
-              "start": 0.499,
-              "end": 0.755
+              "start": 0.697,
+              "end": 0.871
             },
             {
               "text": "using",
-              "start": 0.848,
-              "end": 1.126
+              "start": 0.94,
+              "end": 1.196
             },
             {
               "text": "my",
-              "start": 1.184,
-              "end": 1.277
+              "start": 1.254,
+              "end": 1.347
             },
             {
               "text": "phone",
-              "start": 1.347,
-              "end": 1.649
+              "start": 1.405,
+              "end": 1.625
             },
             {
               "text": "before",
-              "start": 1.683,
-              "end": 1.962
+              "start": 1.66,
+              "end": 1.904
             },
             {
               "text": "bed",
-              "start": 2.02,
-              "end": 2.229
+              "start": 1.939,
+              "end": 2.09
             },
             {
               "text": "affects",
-              "start": 2.276,
-              "end": 2.601
+              "start": 2.125,
+              "end": 2.403
             },
             {
               "text": "my",
-              "start": 2.659,
-              "end": 2.752
+              "start": 2.461,
+              "end": 2.543
             },
             {
               "text": "sleep",
-              "start": 2.821,
-              "end": 3.146
+              "start": 2.612,
+              "end": 2.879
             },
             {
               "text": "because",
-              "start": 3.471,
-              "end": 3.75
+              "start": 2.949,
+              "end": 3.17
             },
             {
               "text": "it's",
-              "start": 3.785,
-              "end": 3.901
+              "start": 3.193,
+              "end": 3.297
             },
             {
               "text": "very",
-              "start": 3.959,
-              "end": 4.191
+              "start": 3.332,
+              "end": 3.506
             },
             {
               "text": "distracting.",
-              "start": 4.238,
-              "end": 4.969
-            },
-            {
-              "text": "It",
-              "start": 5.573,
-              "end": 5.712
-            },
-            {
-              "text": "is",
-              "start": 5.759,
-              "end": 5.84
-            },
-            {
-              "text": "very",
-              "start": 5.933,
-              "end": 6.188
-            },
-            {
-              "text": "distracting",
-              "start": 6.246,
-              "end": 6.769
-            },
-            {
-              "text": "for",
-              "start": 6.827,
-              "end": 6.931
-            },
-            {
-              "text": "students,",
-              "start": 6.989,
-              "end": 7.523
-            },
-            {
-              "text": "so",
-              "start": 7.616,
-              "end": 7.767
-            },
-            {
-              "text": "students",
-              "start": 7.837,
-              "end": 8.22
-            },
-            {
-              "text": "can't",
-              "start": 8.266,
-              "end": 8.498
-            },
-            {
-              "text": "focus",
-              "start": 8.557,
-              "end": 8.882
-            },
-            {
-              "text": "on",
-              "start": 8.928,
-              "end": 8.998
-            },
-            {
-              "text": "their",
-              "start": 9.021,
-              "end": 9.137
-            },
-            {
-              "text": "studies.",
-              "start": 9.16,
-              "end": 9.938
+              "start": 3.553,
+              "end": 4.412
             }
-          ]
-        },
-        {
-          "en": "Q3) Would you say you get enough sleep on a regular basis? Why or why not?",
-          "ko": "",
-          "enAudio": "audio/674c6912c32c51d60f18fbc7cfe23e87149653e3.mp3",
-          "koAudio": null,
-          "words": [
-            {
-              "text": "Q3)",
-              "start": 0.0,
-              "end": 0.906
-            },
-            {
-              "text": "Would",
-              "start": 1.115,
-              "end": 1.312
-            },
-            {
-              "text": "you",
-              "start": 1.347,
-              "end": 1.44
-            },
-            {
-              "text": "say",
-              "start": 1.521,
-              "end": 1.741
-            },
-            {
-              "text": "you",
-              "start": 1.811,
-              "end": 1.881
-            },
-            {
-              "text": "get",
-              "start": 1.962,
-              "end": 2.067
-            },
-            {
-              "text": "enough",
-              "start": 2.113,
-              "end": 2.322
-            },
-            {
-              "text": "sleep",
-              "start": 2.357,
-              "end": 2.589
-            },
-            {
-              "text": "on",
-              "start": 2.647,
-              "end": 2.717
-            },
-            {
-              "text": "a",
-              "start": 2.752,
-              "end": 2.775
-            },
-            {
-              "text": "regular",
-              "start": 2.833,
-              "end": 3.123
-            },
-            {
-              "text": "basis?",
-              "start": 3.181,
-              "end": 3.738
-            },
-            {
-              "text": "Why",
-              "start": 3.982,
-              "end": 4.342
-            },
-            {
-              "text": "or",
-              "start": 4.423,
-              "end": 4.551
-            },
-            {
-              "text": "why",
-              "start": 4.609,
-              "end": 4.76
-            },
-            {
-              "text": "not?",
-              "start": 4.841,
-              "end": 5.433
-            }
+          ],
+          "question": "Q2) Do you think using your phone before bed affects your sleep? Why or why not?",
+          "questionAudio": "audio/c4f3e0f8e72f8f09f14b68fd8ae5da5bd6e54527.mp3",
+          "extra": [
+            "It is very distracting for students, so students can't focus on their studies."
           ]
         },
         {
@@ -3684,95 +3529,10 @@
               "start": 14.234,
               "end": 15.0
             }
-          ]
-        },
-        {
-          "en": "Q4) What kind of smartphone brand do you like using and why do you like it?",
-          "ko": "",
-          "enAudio": "audio/71b97c3c4eb8cf69d2bdf892f4257f6062d80837.mp3",
-          "koAudio": null,
-          "words": [
-            {
-              "text": "Q4)",
-              "start": 0.0,
-              "end": 0.801
-            },
-            {
-              "text": "What",
-              "start": 1.126,
-              "end": 1.3
-            },
-            {
-              "text": "kind",
-              "start": 1.347,
-              "end": 1.556
-            },
-            {
-              "text": "of",
-              "start": 1.602,
-              "end": 1.649
-            },
-            {
-              "text": "smartphone",
-              "start": 1.695,
-              "end": 2.148
-            },
-            {
-              "text": "brand",
-              "start": 2.171,
-              "end": 2.345
-            },
-            {
-              "text": "do",
-              "start": 2.368,
-              "end": 2.426
-            },
-            {
-              "text": "you",
-              "start": 2.45,
-              "end": 2.519
-            },
-            {
-              "text": "like",
-              "start": 2.566,
-              "end": 2.717
-            },
-            {
-              "text": "using",
-              "start": 2.763,
-              "end": 3.042
-            },
-            {
-              "text": "and",
-              "start": 3.077,
-              "end": 3.146
-            },
-            {
-              "text": "why",
-              "start": 3.193,
-              "end": 3.309
-            },
-            {
-              "text": "do",
-              "start": 3.355,
-              "end": 3.402
-            },
-            {
-              "text": "you",
-              "start": 3.437,
-              "end": 3.506
-            },
-            {
-              "text": "like",
-              "start": 3.553,
-              "end": 3.727
-            },
-            {
-              "text": "it?",
-              "start": 3.762,
-              "end": 4.18
-            }
-          ]
+          ],
+          "question": "Q3) Would you say you get enough sleep on a regular basis? Why or why not?",
+          "questionAudio": "audio/674c6912c32c51d60f18fbc7cfe23e87149653e3.mp3",
+          "extra": []
         },
         {
           "en": "I like using Samsung smartphones because they're more reliable, so I can trust their products.",
@@ -3855,64 +3615,11 @@
               "start": 4.656,
               "end": 5.526
             }
-          ]
-        },
-        {
-          "en": "Q5) What mobile application do you frequently use, and why?",
-          "ko": "",
-          "enAudio": "audio/7d923173677bc48269f711e839b319edd09e89db.mp3",
-          "koAudio": null,
-          "words": [
-            {
-              "text": "Q5)",
-              "start": 0.0,
-              "end": 0.72
-            },
-            {
-              "text": "What",
-              "start": 0.964,
-              "end": 1.149
-            },
-            {
-              "text": "mobile",
-              "start": 1.207,
-              "end": 1.463
-            },
-            {
-              "text": "application",
-              "start": 1.486,
-              "end": 2.055
-            },
-            {
-              "text": "do",
-              "start": 2.101,
-              "end": 2.171
-            },
-            {
-              "text": "you",
-              "start": 2.229,
-              "end": 2.299
-            },
-            {
-              "text": "frequently",
-              "start": 2.357,
-              "end": 2.775
-            },
-            {
-              "text": "use,",
-              "start": 2.833,
-              "end": 3.193
-            },
-            {
-              "text": "and",
-              "start": 3.228,
-              "end": 3.379
-            },
-            {
-              "text": "why?",
-              "start": 3.437,
-              "end": 4.087
-            }
+          ],
+          "question": "Q4) What kind of smartphone brand do you like using and why do you like it?",
+          "questionAudio": "audio/71b97c3c4eb8cf69d2bdf892f4257f6062d80837.mp3",
+          "extra": [
+            "It's reliable, so I can trust the product."
           ]
         },
         {
@@ -4021,94 +3728,12 @@
               "start": 5.77,
               "end": 6.502
             }
-          ]
-        },
-        {
-          "en": "Q6) If you buy a new smartphone, is camera the most important factor to you? Why?",
-          "ko": "",
-          "enAudio": "audio/12fb7044a03de4bf32ec871ada5a53d6ab0a83b3.mp3",
-          "koAudio": null,
-          "words": [
-            {
-              "text": "Q6)",
-              "start": 0.0,
-              "end": 0.94
-            },
-            {
-              "text": "If",
-              "start": 0.987,
-              "end": 1.091
-            },
-            {
-              "text": "you",
-              "start": 1.126,
-              "end": 1.196
-            },
-            {
-              "text": "buy",
-              "start": 1.265,
-              "end": 1.382
-            },
-            {
-              "text": "a",
-              "start": 1.428,
-              "end": 1.451
-            },
-            {
-              "text": "new",
-              "start": 1.486,
-              "end": 1.591
-            },
-            {
-              "text": "smartphone,",
-              "start": 1.637,
-              "end": 2.334
-            },
-            {
-              "text": "is",
-              "start": 2.612,
-              "end": 2.763
-            },
-            {
-              "text": "camera",
-              "start": 2.833,
-              "end": 3.216
-            },
-            {
-              "text": "the",
-              "start": 3.274,
-              "end": 3.344
-            },
-            {
-              "text": "most",
-              "start": 3.379,
-              "end": 3.541
-            },
-            {
-              "text": "important",
-              "start": 3.576,
-              "end": 3.924
-            },
-            {
-              "text": "factor",
-              "start": 3.959,
-              "end": 4.261
-            },
-            {
-              "text": "to",
-              "start": 4.307,
-              "end": 4.377
-            },
-            {
-              "text": "you?",
-              "start": 4.458,
-              "end": 4.702
-            },
-            {
-              "text": "Why?",
-              "start": 4.818,
-              "end": 5.526
-            }
+          ],
+          "question": "Q5) What mobile application do you frequently use, and why?",
+          "questionAudio": "audio/7d923173677bc48269f711e839b319edd09e89db.mp3",
+          "extra": [
+            "It's necessary for me to check my schedule.",
+            "It's very convenient and useful."
           ]
         },
         {
@@ -4422,7 +4047,10 @@
               "start": 18.17,
               "end": 18.855
             }
-          ]
+          ],
+          "question": "Q6) If you buy a new smartphone, is camera the most important factor to you? Why?",
+          "questionAudio": "audio/12fb7044a03de4bf32ec871ada5a53d6ab0a83b3.mp3",
+          "extra": []
         }
       ]
     }
