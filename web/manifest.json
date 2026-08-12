@@ -2892,6 +2892,1927 @@
       "title": "Task2 실전모의고사",
       "group": "Part2 사진묘사",
       "sentences": []
+    },
+    {
+      "id": "Part3 듣고 답하기/Task1 만능문장",
+      "title": "Task1 만능문장",
+      "group": "Part3 듣고 답하기",
+      "sentences": [
+        {
+          "en": "Q1) What do you usually do if you can't fall asleep easily? Why do you do that?",
+          "ko": "",
+          "enAudio": "audio/925326c88b39808eb3c80203d0e85835f68905e3.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Q1)",
+              "start": 0.0,
+              "end": 0.58
+            },
+            {
+              "text": "What",
+              "start": 0.673,
+              "end": 0.848
+            },
+            {
+              "text": "do",
+              "start": 0.882,
+              "end": 0.952
+            },
+            {
+              "text": "you",
+              "start": 1.01,
+              "end": 1.091
+            },
+            {
+              "text": "usually",
+              "start": 1.207,
+              "end": 1.567
+            },
+            {
+              "text": "do",
+              "start": 1.614,
+              "end": 1.73
+            },
+            {
+              "text": "if",
+              "start": 1.788,
+              "end": 1.858
+            },
+            {
+              "text": "you",
+              "start": 1.904,
+              "end": 1.974
+            },
+            {
+              "text": "can't",
+              "start": 2.032,
+              "end": 2.241
+            },
+            {
+              "text": "fall",
+              "start": 2.276,
+              "end": 2.45
+            },
+            {
+              "text": "asleep",
+              "start": 2.496,
+              "end": 2.775
+            },
+            {
+              "text": "easily?",
+              "start": 2.833,
+              "end": 3.309
+            },
+            {
+              "text": "Why",
+              "start": 3.518,
+              "end": 3.692
+            },
+            {
+              "text": "do",
+              "start": 3.727,
+              "end": 3.785
+            },
+            {
+              "text": "you",
+              "start": 3.82,
+              "end": 3.889
+            },
+            {
+              "text": "do",
+              "start": 3.936,
+              "end": 4.029
+            },
+            {
+              "text": "that?",
+              "start": 4.087,
+              "end": 4.69
+            }
+          ]
+        },
+        {
+          "en": "I usually listen to music if I can't fall asleep easily because it's helpful for falling asleep.",
+          "ko": "저는 쉽게 잠들지 못할 때 보통 음악을 들어요. 왜냐하면 잠드는 데 도움이 되기 때문이에요.",
+          "enAudio": "audio/ca0f0ca1880b34fcf24e5d5e16038932bb417590.mp3",
+          "koAudio": "audio/c2bfd8f124667fedeb810a424c1e92ba91a1d116.mp3",
+          "words": [
+            {
+              "text": "I",
+              "start": 0.0,
+              "end": 0.093
+            },
+            {
+              "text": "usually",
+              "start": 0.244,
+              "end": 0.615
+            },
+            {
+              "text": "listen",
+              "start": 0.697,
+              "end": 0.964
+            },
+            {
+              "text": "to",
+              "start": 1.01,
+              "end": 1.068
+            },
+            {
+              "text": "music",
+              "start": 1.138,
+              "end": 1.521
+            },
+            {
+              "text": "if",
+              "start": 1.567,
+              "end": 1.683
+            },
+            {
+              "text": "I",
+              "start": 1.753,
+              "end": 1.776
+            },
+            {
+              "text": "can't",
+              "start": 1.869,
+              "end": 2.125
+            },
+            {
+              "text": "fall",
+              "start": 2.171,
+              "end": 2.357
+            },
+            {
+              "text": "asleep",
+              "start": 2.403,
+              "end": 2.728
+            },
+            {
+              "text": "easily",
+              "start": 2.844,
+              "end": 3.332
+            },
+            {
+              "text": "because",
+              "start": 3.541,
+              "end": 3.855
+            },
+            {
+              "text": "it's",
+              "start": 3.889,
+              "end": 4.017
+            },
+            {
+              "text": "helpful",
+              "start": 4.075,
+              "end": 4.4
+            },
+            {
+              "text": "for",
+              "start": 4.447,
+              "end": 4.551
+            },
+            {
+              "text": "falling",
+              "start": 4.598,
+              "end": 4.876
+            },
+            {
+              "text": "asleep.",
+              "start": 4.911,
+              "end": 5.619
+            }
+          ]
+        },
+        {
+          "en": "It's very helpful to me.",
+          "ko": "",
+          "enAudio": "audio/5779bbd5a865f57d400e5e09ef49d01f03a0311f.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "It's",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "very",
+              "start": 0.244,
+              "end": 0.476
+            },
+            {
+              "text": "helpful",
+              "start": 0.534,
+              "end": 0.848
+            },
+            {
+              "text": "to",
+              "start": 0.894,
+              "end": 0.94
+            },
+            {
+              "text": "me.",
+              "start": 0.987,
+              "end": 1.486
+            }
+          ]
+        },
+        {
+          "en": "It's very helpful for falling asleep.",
+          "ko": "",
+          "enAudio": "audio/8b4eb579cc3d92fdf67271d7808b0ba62bb86b59.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "It's",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "very",
+              "start": 0.244,
+              "end": 0.453
+            },
+            {
+              "text": "helpful",
+              "start": 0.511,
+              "end": 0.801
+            },
+            {
+              "text": "for",
+              "start": 0.848,
+              "end": 0.952
+            },
+            {
+              "text": "falling",
+              "start": 1.01,
+              "end": 1.289
+            },
+            {
+              "text": "asleep.",
+              "start": 1.335,
+              "end": 2.043
+            }
+          ]
+        },
+        {
+          "en": "Q2) Do you think using your phone before bed affects your sleep? Why or why not?",
+          "ko": "",
+          "enAudio": "audio/c4f3e0f8e72f8f09f14b68fd8ae5da5bd6e54527.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Q2)",
+              "start": 0.0,
+              "end": 0.615
+            },
+            {
+              "text": "Do",
+              "start": 0.697,
+              "end": 0.789
+            },
+            {
+              "text": "you",
+              "start": 0.848,
+              "end": 0.917
+            },
+            {
+              "text": "think",
+              "start": 0.964,
+              "end": 1.126
+            },
+            {
+              "text": "using",
+              "start": 1.196,
+              "end": 1.44
+            },
+            {
+              "text": "your",
+              "start": 1.474,
+              "end": 1.579
+            },
+            {
+              "text": "phone",
+              "start": 1.614,
+              "end": 1.823
+            },
+            {
+              "text": "before",
+              "start": 1.858,
+              "end": 2.113
+            },
+            {
+              "text": "bed",
+              "start": 2.148,
+              "end": 2.31
+            },
+            {
+              "text": "affects",
+              "start": 2.345,
+              "end": 2.612
+            },
+            {
+              "text": "your",
+              "start": 2.647,
+              "end": 2.752
+            },
+            {
+              "text": "sleep?",
+              "start": 2.786,
+              "end": 3.17
+            },
+            {
+              "text": "Why",
+              "start": 3.495,
+              "end": 3.855
+            },
+            {
+              "text": "or",
+              "start": 3.936,
+              "end": 4.052
+            },
+            {
+              "text": "why",
+              "start": 4.11,
+              "end": 4.238
+            },
+            {
+              "text": "not?",
+              "start": 4.319,
+              "end": 4.876
+            }
+          ]
+        },
+        {
+          "en": "Yes, I think using my phone before bed affects my sleep because it's very distracting.",
+          "ko": "네, 저는 잠들기 전에 휴대폰을 사용하는 것이 제 수면에 영향을 준다고 생각해요, 왜냐하면 그것이 집중을 매우 방해하기 때문이에요.",
+          "enAudio": "audio/e985e26e29352e661bb088ef54e7f26b16b244aa.mp3",
+          "koAudio": "audio/6e5ff1962f3be6f1cdfa8afa97e141a69c474f05.mp3",
+          "words": [
+            {
+              "text": "Yes,",
+              "start": 0.0,
+              "end": 0.441
+            },
+            {
+              "text": "I",
+              "start": 0.534,
+              "end": 0.58
+            },
+            {
+              "text": "think",
+              "start": 0.697,
+              "end": 0.871
+            },
+            {
+              "text": "using",
+              "start": 0.94,
+              "end": 1.196
+            },
+            {
+              "text": "my",
+              "start": 1.254,
+              "end": 1.347
+            },
+            {
+              "text": "phone",
+              "start": 1.405,
+              "end": 1.625
+            },
+            {
+              "text": "before",
+              "start": 1.66,
+              "end": 1.904
+            },
+            {
+              "text": "bed",
+              "start": 1.939,
+              "end": 2.09
+            },
+            {
+              "text": "affects",
+              "start": 2.125,
+              "end": 2.403
+            },
+            {
+              "text": "my",
+              "start": 2.461,
+              "end": 2.543
+            },
+            {
+              "text": "sleep",
+              "start": 2.612,
+              "end": 2.879
+            },
+            {
+              "text": "because",
+              "start": 2.949,
+              "end": 3.17
+            },
+            {
+              "text": "it's",
+              "start": 3.193,
+              "end": 3.297
+            },
+            {
+              "text": "very",
+              "start": 3.332,
+              "end": 3.506
+            },
+            {
+              "text": "distracting.",
+              "start": 3.553,
+              "end": 4.412
+            }
+          ]
+        },
+        {
+          "en": "It is very distracting for students, so students can't focus on their studies.",
+          "ko": "그것은 학생들의 집중을 분산시켜서 학생들은 공부에 집중할 수 없어요.",
+          "enAudio": "audio/58e4554f1f82207a16730fc60f9f42bcbadb3520.mp3",
+          "koAudio": "audio/ef39b9c276f4a230619a2d40f477f7ceb820c925.mp3",
+          "words": [
+            {
+              "text": "It",
+              "start": 0.0,
+              "end": 0.139
+            },
+            {
+              "text": "is",
+              "start": 0.186,
+              "end": 0.267
+            },
+            {
+              "text": "very",
+              "start": 0.36,
+              "end": 0.604
+            },
+            {
+              "text": "distracting",
+              "start": 0.662,
+              "end": 1.231
+            },
+            {
+              "text": "for",
+              "start": 1.289,
+              "end": 1.393
+            },
+            {
+              "text": "students,",
+              "start": 1.451,
+              "end": 1.95
+            },
+            {
+              "text": "so",
+              "start": 2.334,
+              "end": 2.461
+            },
+            {
+              "text": "students",
+              "start": 2.531,
+              "end": 2.856
+            },
+            {
+              "text": "can't",
+              "start": 2.891,
+              "end": 3.077
+            },
+            {
+              "text": "focus",
+              "start": 3.123,
+              "end": 3.402
+            },
+            {
+              "text": "on",
+              "start": 3.448,
+              "end": 3.506
+            },
+            {
+              "text": "their",
+              "start": 3.529,
+              "end": 3.646
+            },
+            {
+              "text": "studies.",
+              "start": 3.669,
+              "end": 4.412
+            }
+          ]
+        },
+        {
+          "en": "Q3) Would you say you get enough sleep on a regular basis? Why or why not?",
+          "ko": "",
+          "enAudio": "audio/674c6912c32c51d60f18fbc7cfe23e87149653e3.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Q3)",
+              "start": 0.0,
+              "end": 0.906
+            },
+            {
+              "text": "Would",
+              "start": 1.115,
+              "end": 1.312
+            },
+            {
+              "text": "you",
+              "start": 1.347,
+              "end": 1.44
+            },
+            {
+              "text": "say",
+              "start": 1.521,
+              "end": 1.741
+            },
+            {
+              "text": "you",
+              "start": 1.811,
+              "end": 1.881
+            },
+            {
+              "text": "get",
+              "start": 1.962,
+              "end": 2.067
+            },
+            {
+              "text": "enough",
+              "start": 2.113,
+              "end": 2.322
+            },
+            {
+              "text": "sleep",
+              "start": 2.357,
+              "end": 2.589
+            },
+            {
+              "text": "on",
+              "start": 2.647,
+              "end": 2.717
+            },
+            {
+              "text": "a",
+              "start": 2.752,
+              "end": 2.775
+            },
+            {
+              "text": "regular",
+              "start": 2.833,
+              "end": 3.123
+            },
+            {
+              "text": "basis?",
+              "start": 3.181,
+              "end": 3.738
+            },
+            {
+              "text": "Why",
+              "start": 3.982,
+              "end": 4.342
+            },
+            {
+              "text": "or",
+              "start": 4.423,
+              "end": 4.551
+            },
+            {
+              "text": "why",
+              "start": 4.609,
+              "end": 4.76
+            },
+            {
+              "text": "not?",
+              "start": 4.841,
+              "end": 5.433
+            }
+          ]
+        },
+        {
+          "en": "No, I wouldn't say I get enough sleep on a regular basis.",
+          "ko": "아니요, 저는 평소에 충분한 수면을 취한다고 말할 수 없어요.",
+          "enAudio": "audio/201ad76ed3f9e454eeb7587ef329405e515c362f.mp3",
+          "koAudio": "audio/7fc4818d7d5b9c89b5c8856c293e45f83b864371.mp3",
+          "words": [
+            {
+              "text": "No,",
+              "start": 0.0,
+              "end": 0.453
+            },
+            {
+              "text": "I",
+              "start": 0.58,
+              "end": 0.627
+            },
+            {
+              "text": "wouldn't",
+              "start": 0.697,
+              "end": 0.987
+            },
+            {
+              "text": "say",
+              "start": 1.022,
+              "end": 1.196
+            },
+            {
+              "text": "I",
+              "start": 1.254,
+              "end": 1.277
+            },
+            {
+              "text": "get",
+              "start": 1.358,
+              "end": 1.474
+            },
+            {
+              "text": "enough",
+              "start": 1.521,
+              "end": 1.707
+            },
+            {
+              "text": "sleep",
+              "start": 1.73,
+              "end": 1.95
+            },
+            {
+              "text": "on",
+              "start": 1.997,
+              "end": 2.055
+            },
+            {
+              "text": "a",
+              "start": 2.09,
+              "end": 2.113
+            },
+            {
+              "text": "regular",
+              "start": 2.159,
+              "end": 2.45
+            },
+            {
+              "text": "basis.",
+              "start": 2.496,
+              "end": 3.204
+            }
+          ]
+        },
+        {
+          "en": "First, I'm a student, so I'm busy with my schoolwork.",
+          "ko": "첫째, 저는 학생이어서 학업에 바뻐요.",
+          "enAudio": "audio/359ccb4f6f8a50e976acc9d2ef69b2faaa77b5e1.mp3",
+          "koAudio": "audio/60a2db985b817343bab3e71ffc43aa98c738f0bf.mp3",
+          "words": [
+            {
+              "text": "First,",
+              "start": 0.0,
+              "end": 0.383
+            },
+            {
+              "text": "I'm",
+              "start": 0.406,
+              "end": 0.534
+            },
+            {
+              "text": "a",
+              "start": 0.58,
+              "end": 0.604
+            },
+            {
+              "text": "student,",
+              "start": 0.673,
+              "end": 1.184
+            },
+            {
+              "text": "so",
+              "start": 1.254,
+              "end": 1.393
+            },
+            {
+              "text": "I'm",
+              "start": 1.451,
+              "end": 1.556
+            },
+            {
+              "text": "busy",
+              "start": 1.602,
+              "end": 1.811
+            },
+            {
+              "text": "with",
+              "start": 1.846,
+              "end": 1.962
+            },
+            {
+              "text": "my",
+              "start": 1.997,
+              "end": 2.067
+            },
+            {
+              "text": "schoolwork.",
+              "start": 2.113,
+              "end": 2.926
+            }
+          ]
+        },
+        {
+          "en": "I don't have much time to get sleep.",
+          "ko": "저는 충분히 잠잘 시간이 별로 없어요.",
+          "enAudio": "audio/40fdffd0ddb0a947566f83b552137cbf7ffd9d86.mp3",
+          "koAudio": "audio/4cb03e03816322fd7fcf4b2108a791754543bd6b.mp3",
+          "words": [
+            {
+              "text": "I",
+              "start": 0.0,
+              "end": 0.081
+            },
+            {
+              "text": "don't",
+              "start": 0.139,
+              "end": 0.302
+            },
+            {
+              "text": "have",
+              "start": 0.337,
+              "end": 0.488
+            },
+            {
+              "text": "much",
+              "start": 0.522,
+              "end": 0.685
+            },
+            {
+              "text": "time",
+              "start": 0.731,
+              "end": 0.929
+            },
+            {
+              "text": "to",
+              "start": 0.952,
+              "end": 0.998
+            },
+            {
+              "text": "get",
+              "start": 1.033,
+              "end": 1.149
+            },
+            {
+              "text": "sleep.",
+              "start": 1.196,
+              "end": 1.858
+            }
+          ]
+        },
+        {
+          "en": "Also, I don't get enough sleep these days because I'm stressed out.",
+          "ko": "또한, 저는 스트레스를 많이 받아서 요즘 충분히 잠을 자지 못하고 있어요.",
+          "enAudio": "audio/c53651b1c3282cfb726a0b2dc8fa2a187e9450f7.mp3",
+          "koAudio": "audio/48d0892e6a3e9d88166fd68dbb7650b062a445e9.mp3",
+          "words": [
+            {
+              "text": "Also,",
+              "start": 0.0,
+              "end": 0.522
+            },
+            {
+              "text": "I",
+              "start": 0.569,
+              "end": 0.604
+            },
+            {
+              "text": "don't",
+              "start": 0.673,
+              "end": 0.836
+            },
+            {
+              "text": "get",
+              "start": 0.871,
+              "end": 0.987
+            },
+            {
+              "text": "enough",
+              "start": 1.033,
+              "end": 1.231
+            },
+            {
+              "text": "sleep",
+              "start": 1.254,
+              "end": 1.486
+            },
+            {
+              "text": "these",
+              "start": 1.533,
+              "end": 1.695
+            },
+            {
+              "text": "days",
+              "start": 1.73,
+              "end": 1.95
+            },
+            {
+              "text": "because",
+              "start": 2.009,
+              "end": 2.252
+            },
+            {
+              "text": "I'm",
+              "start": 2.287,
+              "end": 2.403
+            },
+            {
+              "text": "stressed",
+              "start": 2.45,
+              "end": 2.786
+            },
+            {
+              "text": "out.",
+              "start": 2.844,
+              "end": 3.39
+            }
+          ]
+        },
+        {
+          "en": "So, I couldn't say I get enough sleep on a regular basis.",
+          "ko": "그래서 저는 평소에 충분히 잠을 자는 편은 아니에요.",
+          "enAudio": "audio/86df111db117a1fc3f3ff9496906ee3fcb083b2f.mp3",
+          "koAudio": "audio/ef6d379255f36ee14ab84bffc490e3b510ecc725.mp3",
+          "words": [
+            {
+              "text": "So,",
+              "start": 0.0,
+              "end": 0.221
+            },
+            {
+              "text": "I",
+              "start": 0.255,
+              "end": 0.29
+            },
+            {
+              "text": "couldn't",
+              "start": 0.406,
+              "end": 0.72
+            },
+            {
+              "text": "say",
+              "start": 0.766,
+              "end": 0.952
+            },
+            {
+              "text": "I",
+              "start": 1.01,
+              "end": 1.033
+            },
+            {
+              "text": "get",
+              "start": 1.115,
+              "end": 1.242
+            },
+            {
+              "text": "enough",
+              "start": 1.3,
+              "end": 1.509
+            },
+            {
+              "text": "sleep",
+              "start": 1.544,
+              "end": 1.776
+            },
+            {
+              "text": "on",
+              "start": 1.823,
+              "end": 1.881
+            },
+            {
+              "text": "a",
+              "start": 1.916,
+              "end": 1.939
+            },
+            {
+              "text": "regular",
+              "start": 1.997,
+              "end": 2.287
+            },
+            {
+              "text": "basis.",
+              "start": 2.334,
+              "end": 3.158
+            }
+          ]
+        },
+        {
+          "en": "Q4) What kind of smartphone brand do you like using and why do you like it?",
+          "ko": "",
+          "enAudio": "audio/71b97c3c4eb8cf69d2bdf892f4257f6062d80837.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Q4)",
+              "start": 0.0,
+              "end": 0.801
+            },
+            {
+              "text": "What",
+              "start": 1.126,
+              "end": 1.3
+            },
+            {
+              "text": "kind",
+              "start": 1.347,
+              "end": 1.556
+            },
+            {
+              "text": "of",
+              "start": 1.602,
+              "end": 1.649
+            },
+            {
+              "text": "smartphone",
+              "start": 1.695,
+              "end": 2.148
+            },
+            {
+              "text": "brand",
+              "start": 2.171,
+              "end": 2.345
+            },
+            {
+              "text": "do",
+              "start": 2.368,
+              "end": 2.426
+            },
+            {
+              "text": "you",
+              "start": 2.45,
+              "end": 2.519
+            },
+            {
+              "text": "like",
+              "start": 2.566,
+              "end": 2.717
+            },
+            {
+              "text": "using",
+              "start": 2.763,
+              "end": 3.042
+            },
+            {
+              "text": "and",
+              "start": 3.077,
+              "end": 3.146
+            },
+            {
+              "text": "why",
+              "start": 3.193,
+              "end": 3.309
+            },
+            {
+              "text": "do",
+              "start": 3.355,
+              "end": 3.402
+            },
+            {
+              "text": "you",
+              "start": 3.437,
+              "end": 3.506
+            },
+            {
+              "text": "like",
+              "start": 3.553,
+              "end": 3.727
+            },
+            {
+              "text": "it?",
+              "start": 3.762,
+              "end": 4.18
+            }
+          ]
+        },
+        {
+          "en": "I like using Samsung smartphones because they're more reliable, so I can trust their products.",
+          "ko": "저는 삼성 스마트폰을 사용하는 것을 좋아합니다. 왜냐하면 그것들은 더 믿을 만해서 저는 그들의 제품을 신뢰할 수 있기 때문입니다.",
+          "enAudio": "audio/4dbefc309578f88502a89d8ddb1ce3dbf2aba242.mp3",
+          "koAudio": "audio/4c4a892a5cc62222737fb2cd5d7d9265dbd313ce.mp3",
+          "words": [
+            {
+              "text": "I",
+              "start": 0.0,
+              "end": 0.093
+            },
+            {
+              "text": "like",
+              "start": 0.209,
+              "end": 0.372
+            },
+            {
+              "text": "using",
+              "start": 0.43,
+              "end": 0.697
+            },
+            {
+              "text": "Samsung",
+              "start": 0.778,
+              "end": 1.312
+            },
+            {
+              "text": "smartphones",
+              "start": 1.37,
+              "end": 1.904
+            },
+            {
+              "text": "because",
+              "start": 1.95,
+              "end": 2.183
+            },
+            {
+              "text": "they're",
+              "start": 2.206,
+              "end": 2.403
+            },
+            {
+              "text": "more",
+              "start": 2.438,
+              "end": 2.577
+            },
+            {
+              "text": "reliable,",
+              "start": 2.612,
+              "end": 3.262
+            },
+            {
+              "text": "so",
+              "start": 3.587,
+              "end": 3.727
+            },
+            {
+              "text": "I",
+              "start": 3.808,
+              "end": 3.831
+            },
+            {
+              "text": "can",
+              "start": 3.913,
+              "end": 4.04
+            },
+            {
+              "text": "trust",
+              "start": 4.098,
+              "end": 4.435
+            },
+            {
+              "text": "their",
+              "start": 4.47,
+              "end": 4.609
+            },
+            {
+              "text": "products.",
+              "start": 4.656,
+              "end": 5.526
+            }
+          ]
+        },
+        {
+          "en": "It's reliable, so I can trust the product.",
+          "ko": "",
+          "enAudio": "audio/c712c1a1afc3f2e8f63d3c181feb052d3585521a.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "It's",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "reliable,",
+              "start": 0.244,
+              "end": 0.743
+            },
+            {
+              "text": "so",
+              "start": 0.766,
+              "end": 0.848
+            },
+            {
+              "text": "I",
+              "start": 0.917,
+              "end": 0.94
+            },
+            {
+              "text": "can",
+              "start": 0.998,
+              "end": 1.103
+            },
+            {
+              "text": "trust",
+              "start": 1.149,
+              "end": 1.358
+            },
+            {
+              "text": "the",
+              "start": 1.393,
+              "end": 1.463
+            },
+            {
+              "text": "product.",
+              "start": 1.509,
+              "end": 2.229
+            }
+          ]
+        },
+        {
+          "en": "Q5) What mobile application do you frequently use, and why?",
+          "ko": "",
+          "enAudio": "audio/7d923173677bc48269f711e839b319edd09e89db.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Q5)",
+              "start": 0.0,
+              "end": 0.72
+            },
+            {
+              "text": "What",
+              "start": 0.964,
+              "end": 1.149
+            },
+            {
+              "text": "mobile",
+              "start": 1.207,
+              "end": 1.463
+            },
+            {
+              "text": "application",
+              "start": 1.486,
+              "end": 2.055
+            },
+            {
+              "text": "do",
+              "start": 2.101,
+              "end": 2.171
+            },
+            {
+              "text": "you",
+              "start": 2.229,
+              "end": 2.299
+            },
+            {
+              "text": "frequently",
+              "start": 2.357,
+              "end": 2.775
+            },
+            {
+              "text": "use,",
+              "start": 2.833,
+              "end": 3.193
+            },
+            {
+              "text": "and",
+              "start": 3.228,
+              "end": 3.379
+            },
+            {
+              "text": "why?",
+              "start": 3.437,
+              "end": 4.087
+            }
+          ]
+        },
+        {
+          "en": "I frequently use a calendar app, because it's necessary for me to check my schedule. It's very convenient and useful.",
+          "ko": "저는 일정 확인이 꼭 필요하기 때문에 자주 캘린더 앱을 사용합니다. 그것은 매우 편리하고 유용해요.",
+          "enAudio": "audio/db7d3b8eed6fb4f7eb6fd3c99057926f32d5fef7.mp3",
+          "koAudio": "audio/fc7f9f6e90601efabdd16bf9bb9746a511be6789.mp3",
+          "words": [
+            {
+              "text": "I",
+              "start": 0.0,
+              "end": 0.093
+            },
+            {
+              "text": "frequently",
+              "start": 0.244,
+              "end": 0.731
+            },
+            {
+              "text": "use",
+              "start": 0.801,
+              "end": 0.964
+            },
+            {
+              "text": "a",
+              "start": 0.998,
+              "end": 1.022
+            },
+            {
+              "text": "calendar",
+              "start": 1.08,
+              "end": 1.486
+            },
+            {
+              "text": "app,",
+              "start": 1.544,
+              "end": 1.765
+            },
+            {
+              "text": "because",
+              "start": 1.788,
+              "end": 2.055
+            },
+            {
+              "text": "it's",
+              "start": 2.09,
+              "end": 2.229
+            },
+            {
+              "text": "necessary",
+              "start": 2.299,
+              "end": 2.81
+            },
+            {
+              "text": "for",
+              "start": 2.844,
+              "end": 2.949
+            },
+            {
+              "text": "me",
+              "start": 2.984,
+              "end": 3.053
+            },
+            {
+              "text": "to",
+              "start": 3.088,
+              "end": 3.135
+            },
+            {
+              "text": "check",
+              "start": 3.181,
+              "end": 3.355
+            },
+            {
+              "text": "my",
+              "start": 3.413,
+              "end": 3.483
+            },
+            {
+              "text": "schedule.",
+              "start": 3.541,
+              "end": 4.075
+            },
+            {
+              "text": "It's",
+              "start": 4.516,
+              "end": 4.702
+            },
+            {
+              "text": "very",
+              "start": 4.748,
+              "end": 4.957
+            },
+            {
+              "text": "convenient",
+              "start": 5.016,
+              "end": 5.573
+            },
+            {
+              "text": "and",
+              "start": 5.619,
+              "end": 5.7
+            },
+            {
+              "text": "useful.",
+              "start": 5.77,
+              "end": 6.502
+            }
+          ]
+        },
+        {
+          "en": "It's necessary for me to check my schedule.",
+          "ko": "",
+          "enAudio": "audio/66195d613618adcb682681ca9ab0ade197b593d7.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "It's",
+              "start": 0.0,
+              "end": 0.209
+            },
+            {
+              "text": "necessary",
+              "start": 0.267,
+              "end": 0.743
+            },
+            {
+              "text": "for",
+              "start": 0.778,
+              "end": 0.859
+            },
+            {
+              "text": "me",
+              "start": 0.906,
+              "end": 0.975
+            },
+            {
+              "text": "to",
+              "start": 1.01,
+              "end": 1.057
+            },
+            {
+              "text": "check",
+              "start": 1.103,
+              "end": 1.277
+            },
+            {
+              "text": "my",
+              "start": 1.324,
+              "end": 1.393
+            },
+            {
+              "text": "schedule.",
+              "start": 1.44,
+              "end": 2.136
+            }
+          ]
+        },
+        {
+          "en": "It's very convenient and useful.",
+          "ko": "",
+          "enAudio": "audio/127c576956f1aebfbfc7a829153fec803ca0757f.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "It's",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "very",
+              "start": 0.244,
+              "end": 0.476
+            },
+            {
+              "text": "convenient",
+              "start": 0.534,
+              "end": 1.045
+            },
+            {
+              "text": "and",
+              "start": 1.091,
+              "end": 1.161
+            },
+            {
+              "text": "useful.",
+              "start": 1.219,
+              "end": 1.904
+            }
+          ]
+        },
+        {
+          "en": "Q6) If you buy a new smartphone, is camera the most important factor to you? Why?",
+          "ko": "",
+          "enAudio": "audio/12fb7044a03de4bf32ec871ada5a53d6ab0a83b3.mp3",
+          "koAudio": null,
+          "words": [
+            {
+              "text": "Q6)",
+              "start": 0.0,
+              "end": 0.94
+            },
+            {
+              "text": "If",
+              "start": 0.987,
+              "end": 1.091
+            },
+            {
+              "text": "you",
+              "start": 1.126,
+              "end": 1.196
+            },
+            {
+              "text": "buy",
+              "start": 1.265,
+              "end": 1.382
+            },
+            {
+              "text": "a",
+              "start": 1.428,
+              "end": 1.451
+            },
+            {
+              "text": "new",
+              "start": 1.486,
+              "end": 1.591
+            },
+            {
+              "text": "smartphone,",
+              "start": 1.637,
+              "end": 2.334
+            },
+            {
+              "text": "is",
+              "start": 2.612,
+              "end": 2.763
+            },
+            {
+              "text": "camera",
+              "start": 2.833,
+              "end": 3.216
+            },
+            {
+              "text": "the",
+              "start": 3.274,
+              "end": 3.344
+            },
+            {
+              "text": "most",
+              "start": 3.379,
+              "end": 3.541
+            },
+            {
+              "text": "important",
+              "start": 3.576,
+              "end": 3.924
+            },
+            {
+              "text": "factor",
+              "start": 3.959,
+              "end": 4.261
+            },
+            {
+              "text": "to",
+              "start": 4.307,
+              "end": 4.377
+            },
+            {
+              "text": "you?",
+              "start": 4.458,
+              "end": 4.702
+            },
+            {
+              "text": "Why?",
+              "start": 4.818,
+              "end": 5.526
+            }
+          ]
+        },
+        {
+          "en": "If I buy a new smartphone, I think a camera is the most important factor.",
+          "ko": "새 스마트폰을 산다면, 저는 카메라가 가장 중요한 요소라고 생각합니다.",
+          "enAudio": "audio/777c6ce676bcdc584ea6d8d04e4f1606b27d224b.mp3",
+          "koAudio": "audio/a728edf54b50054f716d0e5dbde660efce1aab9b.mp3",
+          "words": [
+            {
+              "text": "If",
+              "start": 0.0,
+              "end": 0.151
+            },
+            {
+              "text": "I",
+              "start": 0.221,
+              "end": 0.244
+            },
+            {
+              "text": "buy",
+              "start": 0.36,
+              "end": 0.522
+            },
+            {
+              "text": "a",
+              "start": 0.58,
+              "end": 0.604
+            },
+            {
+              "text": "new",
+              "start": 0.662,
+              "end": 0.789
+            },
+            {
+              "text": "smartphone,",
+              "start": 0.848,
+              "end": 1.544
+            },
+            {
+              "text": "I",
+              "start": 1.753,
+              "end": 1.8
+            },
+            {
+              "text": "think",
+              "start": 1.892,
+              "end": 2.043
+            },
+            {
+              "text": "a",
+              "start": 2.09,
+              "end": 2.113
+            },
+            {
+              "text": "camera",
+              "start": 2.183,
+              "end": 2.531
+            },
+            {
+              "text": "is",
+              "start": 2.554,
+              "end": 2.612
+            },
+            {
+              "text": "the",
+              "start": 2.659,
+              "end": 2.728
+            },
+            {
+              "text": "most",
+              "start": 2.763,
+              "end": 2.937
+            },
+            {
+              "text": "important",
+              "start": 2.972,
+              "end": 3.344
+            },
+            {
+              "text": "factor.",
+              "start": 3.39,
+              "end": 4.133
+            }
+          ]
+        },
+        {
+          "en": "First, it's very convenient and useful if my smartphone has a good camera.",
+          "ko": "첫째, 제 스마트폰에 좋은 카메라가 있다면 그것은 매우 편리하고 유용합니다.",
+          "enAudio": "audio/5243eb8f6ef76ec98f7773b546b077c3c52fd5bc.mp3",
+          "koAudio": "audio/923ff99c93c22f2089ee0f5fef2adc2b580e5498.mp3",
+          "words": [
+            {
+              "text": "First,",
+              "start": 0.0,
+              "end": 0.395
+            },
+            {
+              "text": "it's",
+              "start": 0.418,
+              "end": 0.557
+            },
+            {
+              "text": "very",
+              "start": 0.592,
+              "end": 0.801
+            },
+            {
+              "text": "convenient",
+              "start": 0.871,
+              "end": 1.463
+            },
+            {
+              "text": "and",
+              "start": 1.521,
+              "end": 1.718
+            },
+            {
+              "text": "useful",
+              "start": 1.8,
+              "end": 2.125
+            },
+            {
+              "text": "if",
+              "start": 2.171,
+              "end": 2.241
+            },
+            {
+              "text": "my",
+              "start": 2.299,
+              "end": 2.38
+            },
+            {
+              "text": "smartphone",
+              "start": 2.438,
+              "end": 2.914
+            },
+            {
+              "text": "has",
+              "start": 2.937,
+              "end": 3.042
+            },
+            {
+              "text": "a",
+              "start": 3.088,
+              "end": 3.111
+            },
+            {
+              "text": "good",
+              "start": 3.146,
+              "end": 3.286
+            },
+            {
+              "text": "camera.",
+              "start": 3.32,
+              "end": 4.04
+            }
+          ]
+        },
+        {
+          "en": "Because I don't have to waste money buying a new camera.",
+          "ko": "왜냐하면 저는 새 카메라를 사는 데 돈을 낭비하지 않아도 되기 때문입니다.",
+          "enAudio": "audio/0c24d6310617cc89c4e3c070eb4a2515b2bc8321.mp3",
+          "koAudio": "audio/7ab351acec45f464e2beb58579f90158feef8c50.mp3",
+          "words": [
+            {
+              "text": "Because",
+              "start": 0.0,
+              "end": 0.313
+            },
+            {
+              "text": "I",
+              "start": 0.383,
+              "end": 0.418
+            },
+            {
+              "text": "don't",
+              "start": 0.511,
+              "end": 0.697
+            },
+            {
+              "text": "have",
+              "start": 0.731,
+              "end": 0.882
+            },
+            {
+              "text": "to",
+              "start": 0.917,
+              "end": 0.975
+            },
+            {
+              "text": "waste",
+              "start": 1.033,
+              "end": 1.265
+            },
+            {
+              "text": "money",
+              "start": 1.312,
+              "end": 1.498
+            },
+            {
+              "text": "buying",
+              "start": 1.544,
+              "end": 1.741
+            },
+            {
+              "text": "a",
+              "start": 1.776,
+              "end": 1.8
+            },
+            {
+              "text": "new",
+              "start": 1.846,
+              "end": 1.95
+            },
+            {
+              "text": "camera.",
+              "start": 1.997,
+              "end": 2.694
+            }
+          ]
+        },
+        {
+          "en": "Also, I like to take pictures.",
+          "ko": "또한, 저는 사진을 찍는 것을 좋아합니다.",
+          "enAudio": "audio/236bd24b53522be0c5a67b1ab5e3810546229242.mp3",
+          "koAudio": "audio/a6d77a433d14279333368d7f42c94b249e55ee5b.mp3",
+          "words": [
+            {
+              "text": "Also,",
+              "start": 0.0,
+              "end": 0.464
+            },
+            {
+              "text": "I",
+              "start": 0.488,
+              "end": 0.522
+            },
+            {
+              "text": "like",
+              "start": 0.604,
+              "end": 0.743
+            },
+            {
+              "text": "to",
+              "start": 0.766,
+              "end": 0.813
+            },
+            {
+              "text": "take",
+              "start": 0.848,
+              "end": 0.998
+            },
+            {
+              "text": "pictures.",
+              "start": 1.033,
+              "end": 1.765
+            }
+          ]
+        },
+        {
+          "en": "So, if I buy a new smartphone, I think a camera is the most important factor.",
+          "ko": "그래서 제가 새 스마트폰을 산다면, 카메라가 가장 중요한 요소라고 생각해요.",
+          "enAudio": "audio/84134ffd7f6e0efdda9a4ac1cb9bc8b35a2b962a.mp3",
+          "koAudio": "audio/7a64c97ad9f093d07e2a6d2e17227969a4d103ac.mp3",
+          "words": [
+            {
+              "text": "So,",
+              "start": 0.0,
+              "end": 0.499
+            },
+            {
+              "text": "if",
+              "start": 0.708,
+              "end": 0.836
+            },
+            {
+              "text": "I",
+              "start": 0.906,
+              "end": 0.929
+            },
+            {
+              "text": "buy",
+              "start": 1.045,
+              "end": 1.231
+            },
+            {
+              "text": "a",
+              "start": 1.289,
+              "end": 1.324
+            },
+            {
+              "text": "new",
+              "start": 1.405,
+              "end": 1.533
+            },
+            {
+              "text": "smartphone,",
+              "start": 1.591,
+              "end": 2.299
+            },
+            {
+              "text": "I",
+              "start": 2.473,
+              "end": 2.531
+            },
+            {
+              "text": "think",
+              "start": 2.612,
+              "end": 2.763
+            },
+            {
+              "text": "a",
+              "start": 2.81,
+              "end": 2.833
+            },
+            {
+              "text": "camera",
+              "start": 2.902,
+              "end": 3.251
+            },
+            {
+              "text": "is",
+              "start": 3.286,
+              "end": 3.344
+            },
+            {
+              "text": "the",
+              "start": 3.379,
+              "end": 3.448
+            },
+            {
+              "text": "most",
+              "start": 3.495,
+              "end": 3.646
+            },
+            {
+              "text": "important",
+              "start": 3.68,
+              "end": 4.005
+            },
+            {
+              "text": "factor.",
+              "start": 4.04,
+              "end": 4.783
+            }
+          ]
+        },
+        {
+          "en": "I don't want to waste too much money on that.",
+          "ko": "저는 그것에 돈을 너무 많이 낭비하고 싶지 않아요.",
+          "enAudio": "audio/19b353d4e26d9be731c030a975d2d4626d138237.mp3",
+          "koAudio": "audio/dc7e4d45cbed0f9bb47cb222ba1722c789b7e99c.mp3",
+          "words": [
+            {
+              "text": "I",
+              "start": 0.0,
+              "end": 0.07
+            },
+            {
+              "text": "don't",
+              "start": 0.139,
+              "end": 0.313
+            },
+            {
+              "text": "want",
+              "start": 0.348,
+              "end": 0.488
+            },
+            {
+              "text": "to",
+              "start": 0.511,
+              "end": 0.557
+            },
+            {
+              "text": "waste",
+              "start": 0.604,
+              "end": 0.836
+            },
+            {
+              "text": "too",
+              "start": 0.859,
+              "end": 0.975
+            },
+            {
+              "text": "much",
+              "start": 1.022,
+              "end": 1.184
+            },
+            {
+              "text": "money",
+              "start": 1.254,
+              "end": 1.428
+            },
+            {
+              "text": "on",
+              "start": 1.474,
+              "end": 1.544
+            },
+            {
+              "text": "that.",
+              "start": 1.579,
+              "end": 2.183
+            }
+          ]
+        },
+        {
+          "en": "They can get information and share it with other people.",
+          "ko": "그들은 정보를 얻고 다른 사람들과 공유할 수 있어요.",
+          "enAudio": "audio/5f0c6c0ab92da910da01c85ecb600a11a1468a21.mp3",
+          "koAudio": "audio/5e3e04638223a5612c5d63b3cb46939605d9cedd.mp3",
+          "words": [
+            {
+              "text": "They",
+              "start": 0.0,
+              "end": 0.197
+            },
+            {
+              "text": "can",
+              "start": 0.232,
+              "end": 0.36
+            },
+            {
+              "text": "get",
+              "start": 0.441,
+              "end": 0.615
+            },
+            {
+              "text": "information",
+              "start": 0.662,
+              "end": 1.207
+            },
+            {
+              "text": "and",
+              "start": 1.254,
+              "end": 1.324
+            },
+            {
+              "text": "share",
+              "start": 1.37,
+              "end": 1.556
+            },
+            {
+              "text": "it",
+              "start": 1.591,
+              "end": 1.637
+            },
+            {
+              "text": "with",
+              "start": 1.66,
+              "end": 1.765
+            },
+            {
+              "text": "other",
+              "start": 1.811,
+              "end": 1.962
+            },
+            {
+              "text": "people.",
+              "start": 1.997,
+              "end": 2.647
+            }
+          ]
+        }
+      ]
     }
   ]
 }
