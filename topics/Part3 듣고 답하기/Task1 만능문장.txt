@@ -1,43 +1,25 @@
-# TOEIC Speaking Part 3 - 듣고 질문에 답하기 연습 (형식: 영어 | 한글)
+# TOEIC Speaking Part 3 - 듣고 질문에 답하기 연습 (형식: 영어 | 한글, Q당 질문 1장 + 전체 답변 1장)
 
 ## Q1
 Q1) What do you usually do if you can't fall asleep easily? Why do you do that? |
 I usually listen to music if I can't fall asleep easily because it's helpful for falling asleep. | 저는 쉽게 잠들지 못할 때 보통 음악을 들어요. 왜냐하면 잠드는 데 도움이 되기 때문이에요.
-It's very helpful to me. |
-It's very helpful for falling asleep. |
 
 ## Q2
 Q2) Do you think using your phone before bed affects your sleep? Why or why not? |
-Yes, I think using my phone before bed affects my sleep because it's very distracting. | 네, 저는 잠들기 전에 휴대폰을 사용하는 것이 제 수면에 영향을 준다고 생각해요, 왜냐하면 그것이 집중을 매우 방해하기 때문이에요.
-It is very distracting for students, so students can't focus on their studies. | 그것은 학생들의 집중을 분산시켜서 학생들은 공부에 집중할 수 없어요.
+Yes, I think using my phone before bed affects my sleep because it's very distracting. It is very distracting for students, so students can't focus on their studies. | 네, 저는 잠들기 전에 휴대폰을 사용하는 것이 제 수면에 영향을 준다고 생각해요, 왜냐하면 그것이 집중을 매우 방해하기 때문이에요. 그것은 학생들의 집중을 분산시켜서 학생들은 공부에 집중할 수 없어요.
 
 ## Q3
 Q3) Would you say you get enough sleep on a regular basis? Why or why not? |
-No, I wouldn't say I get enough sleep on a regular basis. | 아니요, 저는 평소에 충분한 수면을 취한다고 말할 수 없어요.
-First, I'm a student, so I'm busy with my schoolwork. | 첫째, 저는 학생이어서 학업에 바뻐요.
-I don't have much time to get sleep. | 저는 충분히 잠잘 시간이 별로 없어요.
-Also, I don't get enough sleep these days because I'm stressed out. | 또한, 저는 스트레스를 많이 받아서 요즘 충분히 잠을 자지 못하고 있어요.
-So, I couldn't say I get enough sleep on a regular basis. | 그래서 저는 평소에 충분히 잠을 자는 편은 아니에요.
+No, I wouldn't say I get enough sleep on a regular basis. First, I'm a student, so I'm busy with my schoolwork. I don't have much time to get sleep. Also, I don't get enough sleep these days because I'm stressed out. So, I couldn't say I get enough sleep on a regular basis. | 아니요, 저는 평소에 충분한 수면을 취한다고 말할 수 없어요. 첫째, 저는 학생이어서 학업에 바뻐요. 저는 충분히 잠잘 시간이 별로 없어요. 또한, 저는 스트레스를 많이 받아서 요즘 충분히 잠을 자지 못하고 있어요. 그래서 저는 평소에 충분히 잠을 자는 편은 아니에요.
 
 ## Q4
 Q4) What kind of smartphone brand do you like using and why do you like it? |
 I like using Samsung smartphones because they're more reliable, so I can trust their products. | 저는 삼성 스마트폰을 사용하는 것을 좋아합니다. 왜냐하면 그것들은 더 믿을 만해서 저는 그들의 제품을 신뢰할 수 있기 때문입니다.
-It's reliable, so I can trust the product. |
 
 ## Q5
 Q5) What mobile application do you frequently use, and why? |
 I frequently use a calendar app, because it's necessary for me to check my schedule. It's very convenient and useful. | 저는 일정 확인이 꼭 필요하기 때문에 자주 캘린더 앱을 사용합니다. 그것은 매우 편리하고 유용해요.
-It's necessary for me to check my schedule. |
-It's very convenient and useful. |
 
 ## Q6
 Q6) If you buy a new smartphone, is camera the most important factor to you? Why? |
-If I buy a new smartphone, I think a camera is the most important factor. | 새 스마트폰을 산다면, 저는 카메라가 가장 중요한 요소라고 생각합니다.
-First, it's very convenient and useful if my smartphone has a good camera. | 첫째, 제 스마트폰에 좋은 카메라가 있다면 그것은 매우 편리하고 유용합니다.
-Because I don't have to waste money buying a new camera. | 왜냐하면 저는 새 카메라를 사는 데 돈을 낭비하지 않아도 되기 때문입니다.
-Also, I like to take pictures. | 또한, 저는 사진을 찍는 것을 좋아합니다.
-So, if I buy a new smartphone, I think a camera is the most important factor. | 그래서 제가 새 스마트폰을 산다면, 카메라가 가장 중요한 요소라고 생각해요.
-
-## 추가 예문
-I don't want to waste too much money on that. | 저는 그것에 돈을 너무 많이 낭비하고 싶지 않아요.
-They can get information and share it with other people. | 그들은 정보를 얻고 다른 사람들과 공유할 수 있어요.
+If I buy a new smartphone, I think a camera is the most important factor. First, it's very convenient and useful if my smartphone has a good camera. Because I don't have to waste money buying a new camera. Also, I like to take pictures. So, if I buy a new smartphone, I think a camera is the most important factor. | 새 스마트폰을 산다면, 저는 카메라가 가장 중요한 요소라고 생각합니다. 첫째, 제 스마트폰에 좋은 카메라가 있다면 그것은 매우 편리하고 유용합니다. 왜냐하면 저는 새 카메라를 사는 데 돈을 낭비하지 않아도 되기 때문입니다. 또한, 저는 사진을 찍는 것을 좋아합니다. 그래서 제가 새 스마트폰을 산다면, 카메라가 가장 중요한 요소라고 생각해요.
